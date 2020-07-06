@@ -17,12 +17,15 @@ buildscript {
         flatDir dirs: '../../dexpatcher-gradle/build/libs'
     }
     dependencies {
+//      implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
         // DexPatcher Gradle plugins:
         classpath 'com.github.lanchon.dexpatcher:dexpatcher-gradle:2.1.3'
     }
 }
 
 apply plugin: 'java'
+//apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.lanchon.dexpatcher.base'
 
 // But you should prefer to use the plugins DSL:
@@ -77,10 +80,10 @@ RegularFile sourceFile = layout.projectDirectory.file(fileTree('source').singleF
 
 boolean importSourceSymbols = true
 
-Integer importAndroidApiLevel = 23
+Integer importAndroidApiLevel = 26
 boolean importAndroidApiInternals = true
 
-String androidBuildTools = '23.0.3'
+String androidBuildTools = '29.0.2'
 
 boolean multiDex = false
 
@@ -140,17 +143,18 @@ if (importAndroidApiLevel) {
 def dex2jarFile = layout.buildDirectory.get().file('dex2jar/classes.jar')
 def dex2jarExceptionFile = layout.buildDirectory.get().file('dex2jar/dex2jar-error.zip')
 
-task dex2jar(type: Dex2jarTask) {
-    description = "Translates Dalvik bytecode into Java bytecode."
-    dexFiles.from sourceFile
-    outputFile = dex2jarFile
-    exceptionFile = dex2jarExceptionFile
-}
+// task dex2jar(type: Dex2jarTask) {
+//     description = "Translates Dalvik bytecode into Java bytecode."
+//     dexFiles.from sourceFile
+//     outputFile = dex2jarFile
+//     exceptionFile = dex2jarExceptionFile
+// }
 
-if (importSourceSymbols) {
-    compileJava.dependsOn dex2jar
-    dependencies.compileOnly files(dex2jarFile)
-}
+// if (importSourceSymbols) {
+//     compileJava.dependsOn dex2jar
+//     dependencies.compileOnly files(dex2jarFile)
+// }
+dependencies.compileOnly files(dex2jarFile)
 
 // Create Patch
 
