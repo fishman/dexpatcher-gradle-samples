@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="11.0px" android:textStyle="normal" android:textColor="@color/bp_pdf_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0px" android:text="@string/bp_pdf_title_accessories" android:lineSpacingExtra="7.0px" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin" />
+    <include layout="@layout/shealth_monitor_bp_pdf_device_table_view" />
+</LinearLayout>

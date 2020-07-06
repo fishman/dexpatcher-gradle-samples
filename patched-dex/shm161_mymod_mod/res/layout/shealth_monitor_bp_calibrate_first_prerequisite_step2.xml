@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/mNavigationLayout">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="24.0dip" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="24.0dip" android:text="@string/shealth_monitor_bp_ensure_higher_calibration_accuracy" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginHorizontal="24.0dip" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="57.0dip" android:src="@drawable/bp_monitor" android:scaleType="fitCenter" android:adjustViewBounds="true" android:paddingStart="28.0dip" android:paddingEnd="26.0dip" />
+            <com.samsung.android.shealthmonitor.widget.HTextButton android:textSize="16.0dip" android:textColor="#ff5280f2" android:gravity="center_horizontal" android:id="@id/mHowtoKnow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shealth_monitor_bp_how_do_i_know_if_it_is_fda_approved" android:layout_below="@id/mDescription" android:lineSpacingExtra="10.0dip" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip" app:allowDefaultButtonShape="true" app:applyUpToLarge="true" app:button_type="button_flat_text_only" style="@style/roboto_regular" />
+        </LinearLayout>
+    </ScrollView>
+    <com.samsung.android.shealthmonitor.widget.BottomNavigationLayout android:id="@id/mNavigationLayout" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

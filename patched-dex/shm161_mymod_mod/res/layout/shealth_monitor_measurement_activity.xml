@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0dip" android:textColor="#ff252525" android:id="@id/mTitle" android:background="@color/baseui_transparent_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:minHeight="70.0dip" android:text="@string/shealth_monitor_bp_your_watch_measurement_is_in_progress_sit_still_and_relax" android:lineSpacingExtra="11.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <TextView android:textSize="17.0dip" android:textColor="#ff252525" android:id="@id/mDescription" android:background="@color/baseui_transparent_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:minHeight="25.0dip" android:text="@string/shealth_monitor_bp_make_sure_your_bp_monitor_has_started" android:lineSpacingExtra="8.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <SurfaceView android:layout_gravity="center|top" android:id="@id/mVideo" android:layout_width="360.0dip" android:layout_height="360.0dip" android:layout_marginTop="28.0dip" />
+            <View android:layout_gravity="center|top" android:id="@id/background" android:background="#fffafafa" android:layout_width="360.0dip" android:layout_height="360.0dip" android:layout_marginTop="28.0dip" android:foreground="@drawable/watch_animation" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

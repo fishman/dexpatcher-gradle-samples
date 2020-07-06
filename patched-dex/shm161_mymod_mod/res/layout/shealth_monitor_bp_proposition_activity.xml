@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/value_proposition_bg" android:layout_width="fill_parent" android:layout_height="240.0dip" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="#ff252525" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/shealth_monitor_bp_intro_title" android:lineSpacingExtra="10.0dip" android:fontFamily="@font/samsungone_600_normal" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/shealth_monitor_bp_intro_desc" android:lineSpacingExtra="8.0dip" android:fontFamily="@font/samsungone_400_normal" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff5280f2" android:gravity="center" android:id="@id/mHowToUseButton" android:layout_width="wrap_content" android:layout_height="27.0dip" android:text="@string/how_to_use" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_600_normal" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/shealth_monitor_history_menu_delete" android:visible="true" android:title="@string/common_delete" />
+    <item android:id="@id/shealth_monitor_history_menu_share" android:visible="true" android:title="@string/common_share" />
+    <item android:id="@id/shealth_monitor_history_menu_re_calibrate" android:visible="true" android:title="@string/shealth_monitor_bp_history_recalibrate_title" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/card_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:backgroundTint="#fffafafa"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/proto_type_card_inner" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <TextView android:textColor="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="24.0dip" style="@style/roboto_bold" />
+        <ImageView android:layout_gravity="center" android:id="@id/mImage" android:background="@drawable/watch_2" android:layout_width="102.0dip" android:layout_height="164.0dip" android:layout_marginTop="52.0dip" android:layout_marginBottom="24.0dip" android:adjustViewBounds="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@android:color/black" android:gravity="center_horizontal" android:id="@id/mBodyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shealth_monitor_bp_card_calibration_first" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+    </LinearLayout>
+    <com.samsung.android.shealthmonitor.widget.HColorButton android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mButton" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="340.0dip" android:layout_marginBottom="20.0dip" android:minWidth="200.0dip" android:text="@string/shealth_monitor_bp_card_calibrate_watch" android:textAllCaps="false" android:fontFamily="@font/samsungone_600" android:textAlignment="center" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:buttonBackgroundColor="#ff000000" app:buttonBackgroundCorner="32" />
+</RelativeLayout>

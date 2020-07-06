@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/shealth_monitor_bp_history_item_view_root" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="73.0dip" android:paddingStart="18.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/shealth_monitor_bp_history_item_delete" android:visibility="gone" android:clickable="false" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip">
+            <ImageView android:id="@id/shealth_monitor_bp_history_item_comment" android:background="@drawable/ic_notes" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff252525" android:id="@id/shealth_monitor_bp_history_item_value" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="8.0dip" android:fontFamily="@font/samsungone_500" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff252525" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shealth_monitor_bp_mmhg" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500" android:layout_marginStart="2.0dip" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff252525" android:id="@id/shealth_monitor_bp_history_item_hr" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="8.0dip" android:fontFamily="@font/samsungone_500" android:layout_marginStart="12.0dip" />
+            <TextView android:textSize="15.0dip" android:textColor="#ff252525" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shealth_monitor_bpm" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500" android:layout_marginStart="2.0dip" />
+            <LinearLayout android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0dip" android:textColor="#ff909090" android:gravity="end" android:id="@id/shealth_monitor_bp_history_item_time" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minWidth="98.0dip" android:maxLines="1" android:fontFamily="@font/samsungone_500" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

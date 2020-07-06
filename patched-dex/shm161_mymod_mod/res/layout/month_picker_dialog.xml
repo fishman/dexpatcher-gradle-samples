@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fringe_layout" android:background="@drawable/baseui_dialog_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" android:showDividers="none">
+        <FrameLayout android:id="@id/alert_title_container" android:paddingBottom="-6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/baseui_dialog_title_view" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.samsung.android.shealthmonitor.widget.HTextView android:gravity="start|center" android:id="@id/alert_text" android:padding="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="this is dialog body content" app:applyUpToLarge="true" style="@style/baseui_dialog_alert_text_style" />
+                    <com.samsung.android.shealthmonitor.widget.HNumberPicker android:layout_gravity="center" android:id="@id/picker" android:background="#fffafafa" android:layout_width="wrap_content" android:layout_height="168.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_centerHorizontal="true" android:contentDescription="Select Month" android:layout_marginVertical="20.0dip" app:npv_ItemPaddingHorizontal="5.0dip" app:npv_ItemPaddingVertical="5.0dip" app:npv_ShownCount="3" app:npv_TextSizeNormal="30.0dip" app:npv_TextSizeSelected="30.0dip" app:npv_WrapSelectorWheel="true" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|center" android:id="@id/buttons_container" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/baseui_dialog_button_view" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

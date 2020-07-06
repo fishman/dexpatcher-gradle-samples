@@ -1,0 +1,92 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: shm161_mymod.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- mp4
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '24'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+  com/samsung/android/shealthmonitor/bp/helper/BpNotificationHelper.kt: '8'
+  com/samsung/android/shealthmonitor/bp/helper/PdfBpDataMaker.kt: '8'
+  com/samsung/android/shealthmonitor/bp/helper/PdfBpViewMaker.kt: '8'
+  com/samsung/android/shealthmonitor/bp/helper/PdfGenHelper.kt: '8'
+  com/samsung/android/shealthmonitor/bp/manager/CalibrationState.kt: '8'
+  com/samsung/android/shealthmonitor/bp/receiver/BpDateTimeChangeReceiver.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorBpCalibrateFirstPrerequisiteActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorBpHowToUseActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorBpHowToUseDetailActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorBpInputActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorBpPropositionActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorMeasurementActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/activity/SHealthMonitorStepStartActivity.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/card/SHealthMonitorBpCaliReminderWithTextBtnTopCard.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/card/SHealthMonitorBpCalibrationView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/card/SHealthMonitorBpIntroTopCard.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/card/SHealthMonitorBpReminderWithColorBtnTopCard.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/card/SHealthMonitorBpRestrictionView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/PrerequisiteStep1.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/PrerequisiteStep2.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/PrerequisiteStep3.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorCompleteView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepCuffWearingVideoView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepCuffWearingView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepEmptyView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepMeasureMonitorView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepReadingBpMonitorView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepStartView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/SHealthMonitorStepWatchWearingVideoView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/TransparentProgressDialog.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDataPageView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDataRowView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDataTableView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDeviceContentView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDevicePageView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDeviceRowView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfDeviceTableView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfPageView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/ui/view/pdf/BpPdfTopContentView.kt: '8'
+  com/samsung/android/shealthmonitor/bp/util/DialogUtils.kt: '8'
+  com/samsung/android/shealthmonitor/data/HealthSdkHelperInterface.kt: '8'
+  com/samsung/android/shealthmonitor/data/HealthSyncData.kt: '8'
+  com/samsung/android/shealthmonitor/dataroom/data/HealthSdkSyncedData.kt: '8'
+  com/samsung/android/shealthmonitor/dataroom/data/HealthSdkSyncedDataDao.kt: '8'
+  com/samsung/android/shealthmonitor/dataroom/manager/SamsungHealthDataSyncManager.kt: '8'
+  com/samsung/android/shealthmonitor/helper/SingletonHolder.kt: '8'
+  com/samsung/android/shealthmonitor/helper/pdf/PdfDataMakerInterface.kt: '8'
+  com/samsung/android/shealthmonitor/helper/pdf/PdfGeneratorTaskHelper.kt: '8'
+  com/samsung/android/shealthmonitor/helper/pdf/PdfViewMakerInterface.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorAboutActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorAccessoriesActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorDataPermissionActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorManufacturerActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorNotificationActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorOpenSourceLicensesActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorPrivacyPolicyActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorProfileEditActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorSetupActivity.kt: '8'
+  com/samsung/android/shealthmonitor/home/ui/activity/SHealthMonitorTermsAndConditionActivity.kt: '8'
+  com/samsung/android/shealthmonitor/receiver/DateTimeChangeReceiver.kt: '8'
+  com/samsung/android/shealthmonitor/widget/BottomNavigationLayout.kt: '8'
+  com/samsung/android/shealthmonitor/widget/BottomNavigationSwipeLayout.kt: '8'
+  com/samsung/android/shealthmonitor/widget/BottomNavigationwithColorButtonLayout.kt: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '1000161'
+  versionName: 1.0.0.161

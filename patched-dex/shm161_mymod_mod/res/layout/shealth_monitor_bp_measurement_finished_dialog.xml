@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/get_reading_icon" />
+    <TextView android:textSize="16.0dip" android:textColor="#cc252525" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mContent" android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/shealth_monitor_bp_measurement_done_dialog_desc" android:lineSpacingExtra="9.0dip" />
+    <TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="#ff658df2" android:layout_gravity="center_horizontal" android:id="@id/mTextButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/shealth_monitor_bp_retake_the_measurement" android:lineSpacingExtra="9.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom" android:background="@color/baseui_dialog_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <com.samsung.android.shealthmonitor.widget.HColorButton android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mYes" android:layout_width="fill_parent" android:layout_height="40.0dip" android:minWidth="160.0dip" android:text="@string/shealth_monitor_yes" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" app:buttonBackgroundColor="#ff000000" app:buttonBackgroundCorner="25" />
+    </LinearLayout>
+</LinearLayout>

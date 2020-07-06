@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <application name="health.samd.bp">
+        <serviceProfile id="/app/health/samd/bp" name="health.samd.bp" role="consumer" serviceImpl="com.samsung.android.shealthmonitor.wearable.sapconnectivity.WearableSaAgent" serviceTimeout="300" version="2.0">
+            <supportedTransports>
+                <transport type="TRANSPORT_BT" />
+                <transport type="TRANSPORT_BLE" />
+            </supportedTransports>
+            <serviceChannel dataRate="low" id="991" priority="low" reliability="disable" />
+        </serviceProfile>
+    </application>
+</resources>

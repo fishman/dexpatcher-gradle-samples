@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:background="#ff000000" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/shealth_monitor_main_activity" />
+    <android.support.design.widget.NavigationView android:layout_gravity="start" android:id="@id/nav_view" android:background="@drawable/drawer_bg" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/mScreenProgressBar">
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/shealth_monitor_main_drawer_menu" />
+        </ScrollView>
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

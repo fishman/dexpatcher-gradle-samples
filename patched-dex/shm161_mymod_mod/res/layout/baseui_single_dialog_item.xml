@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/baseui_dialog_list_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/baseui_one_line_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/baseui_dialog_list_item_main_text_size" android:textColor="@color/baseui_black_text" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/listText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="This is list item." android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="4.0dip" style="@style/roboto_regular" />
+</LinearLayout>

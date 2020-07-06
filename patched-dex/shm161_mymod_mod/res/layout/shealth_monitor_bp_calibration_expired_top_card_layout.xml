@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mCardLayout" android:background="@drawable/home_card_background" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <ImageView android:id="@id/mIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/calibration_reminder_icon" android:layout_marginEnd="12.0dip" />
+        <TextView android:textSize="24.0dip" android:textColor="#fffafafa" android:layout_gravity="center_vertical" android:id="@id/mTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="11.0dip" android:fontFamily="@font/samsungone_600_normal" />
+    </LinearLayout>
+    <TextView android:textSize="14.0dip" android:textColor="#ffefefef" android:id="@id/mDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_400_normal" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.samsung.android.shealthmonitor.widget.HColorButton android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mColorButton" android:layout_width="fill_parent" android:layout_height="40.0dip" android:minWidth="160.0dip" android:fontFamily="@font/samsungone_600_normal" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" app:buttonBackgroundColor="#ffff4b69" app:buttonBackgroundCorner="32" />
+    </LinearLayout>
+</LinearLayout>

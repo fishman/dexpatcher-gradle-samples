@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:background="@color/calibration_bottom_bg_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_above="@id/bottom" app:layout_constraintBottom_toTopOf="@id/bottom" app:layout_constraintHeight_default="percent" app:layout_constraintHeight_percent="0.27">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+            <TextView android:textSize="24.0dip" android:textColor="#ff252525" android:id="@id/mTitle" android:background="@color/baseui_transparent_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/shealth_monitor_calibration_measurement_first_get_ready_body" android:lineSpacingExtra="11.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottom" android:background="@color/calibration_bottom_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.samsung.android.shealthmonitor.widget.HColorButton android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mNext" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" android:minWidth="160.0dip" android:text="@string/common_tracker_next" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" app:buttonBackgroundColor="#ff000000" app:buttonBackgroundCorner="25" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

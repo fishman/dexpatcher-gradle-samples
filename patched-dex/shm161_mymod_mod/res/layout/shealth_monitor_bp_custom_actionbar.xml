@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/shealth_monitor_home_actionbar_radio_layout" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip">
+        <CheckBox android:id="@id/shealth_monitor_home_actionbar_radio_button" android:clickable="false" android:layout_width="32.0sp" android:layout_height="32.0dip" />
+        <TextView android:textSize="12.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:text="@string/shealth_monitor_all" style="@style/roboto_regular" />
+    </LinearLayout>
+    <TextView android:textSize="19.0sp" android:textColor="#ff252525" android:ellipsize="end" android:id="@id/shealth_monitor_home_actionbar_title" android:background="@color/baseui_transparent_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="false" style="@style/roboto_regular" />
+</LinearLayout>

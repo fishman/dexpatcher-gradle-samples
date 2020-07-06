@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/switch_track_off" android:top="2.0dip" android:bottom="2.0dip" android:start="4.0dip" android:end="4.0dip" />
+    <item android:state_checked="true" android:drawable="@drawable/switch_track_on" android:top="2.0dip" android:bottom="2.0dip" android:start="4.0dip" android:end="4.0dip" />
+</selector>

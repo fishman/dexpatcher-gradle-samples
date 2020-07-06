@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="app_name">Samsung Health Monitor</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="baseui_button_cancel">Cancel</string>
+    <string name="baseui_button_ok">Ok</string>
+    <string name="baseui_button_retry">Retry</string>
+    <string name="baseui_button_save">Save</string>
+    <string name="baseui_out_of_memory">Not enough memory. Application will be closed.</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="bp_pdf_data_date">Date: </string>
+    <string name="bp_pdf_data_last_calibration">Last Calibration: </string>
+    <string name="bp_pdf_data_measured_on">Measured on %1$s (%2$s)</string>
+    <string name="bp_pdf_device_table_header_date_of_use">Date of use</string>
+    <string name="bp_pdf_device_table_header_device_name">Device name</string>
+    <string name="bp_pdf_device_table_header_last_calibration_date">Last calibration date</string>
+    <string name="bp_pdf_profile_birthday">Date of birth: </string>
+    <string name="bp_pdf_profile_gender">Gender: </string>
+    <string name="bp_pdf_profile_name">Name: </string>
+    <string name="bp_pdf_table_header_date">Date</string>
+    <string name="bp_pdf_table_header_diastolic">"diastolic
+(mmHg)"</string>
+    <string name="bp_pdf_table_header_notes">Notes</string>
+    <string name="bp_pdf_table_header_pulse">"Pulse rate
+(bpm)"</string>
+    <string name="bp_pdf_table_header_systolic">"Systolic
+(mmHg)"</string>
+    <string name="bp_pdf_table_header_time">Time</string>
+    <string name="bp_pdf_title">Blood pressure</string>
+    <string name="bp_pdf_title_accessories">3. Accessories</string>
+    <string name="bp_pdf_title_data">2. Data</string>
+    <string name="bp_pdf_title_profile">1. Profile</string>
+    <string name="bp_pdf_under_caution_text">Do not change your medications or dosage based on these numbers. Always talk to your doctor first.</string>
+    <string name="bp_select_the_period_dialog_title">Select the period</string>
+    <string name="cannot_connect_with_your_watch">Cannot connect with your watch</string>
+    <string name="cannot_connect_with_your_watch_desc">Your watch requires bluetooth connection with your phone for calibration and data sync. Tap Ok to connect your watch to the phone via Galaxy Wearable app and try again.</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_continue">Continue</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_discard">Discard</string>
+    <string name="common_done">Done</string>
+    <string name="common_error_max_length">Maximum number of characters (%d) reached.</string>
+    <string name="common_female">Female</string>
+    <string name="common_male">Male</string>
+    <string name="common_not_to">Prefer not to disclose</string>
+    <string name="common_share">Share</string>
+    <string name="common_tracker_button">button</string>
+    <string name="common_tracker_last">Last</string>
+    <string name="common_tracker_next">Next</string>
+    <string name="common_tracker_previous">Previous</string>
+    <string name="common_update">Update</string>
+    <string name="common_yes_exit">Yes, exit</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">"DUMMY
+CONTENT"</string>
+    <string name="fab_transformation_scrim_behavior">android.support.design.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">android.support.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="health_monitor_bp_input_monitor_confirm_popup_mmhg">mmHg</string>
+    <string name="health_monitor_bp_input_monitor_confirm_popup_title">Confirm the reading</string>
+    <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="home_about_instruction_for_use">Instruction for Use</string>
+    <string name="home_about_manufacturer">Manufacturer</string>
+    <string name="home_about_manufacturer_detail">"Samsung Electronics
+129, Samsung-ro, Yeongtong-gu, Suwon-si,
+Gyeonggi-do, Republic of Korea"</string>
+    <string name="home_about_open_source_licenses">Open source licenses</string>
+    <string name="home_about_privacy_policy">Privacy Policy</string>
+    <string name="home_about_sub_app_blood_pressure">Samsung BP Monitor</string>
+    <string name="home_about_terms_of_use">Terms of Use</string>
+    <string name="home_about_version_s">Version %s</string>
+    <string name="home_accessories_last_synced_on_s">Last synced on %s</string>
+    <string name="home_accessories_no_connected_device">No compatible watch found. Samsung HealthMonitor requires a paired Samsung Galaxy Watch.</string>
+    <string name="home_accessories_sync_data">Sync data</string>
+    <string name="home_accessories_syncing">Syncing…</string>
+    <string name="home_data_permission">Data permission</string>
+    <string name="home_data_permission_app_description">Allow this app to write Samsung Health data.</string>
+    <string name="home_data_permission_app_name">Samsung Health</string>
+    <string name="home_data_permission_sub_title">Apps</string>
+    <string name="home_main_activity_lock_screen_popup_button">Set up lock screen</string>
+    <string name="home_main_activity_lock_screen_popup_description">"Samsung Health Monitor requires you to set up a lock screen type that is not set to 'Swipe' or 'None'. Change the lock screen type and try again."</string>
+    <string name="home_main_activity_lock_screen_popup_title">Improve security with Lock screen</string>
+    <string name="home_profile_date_of_birth">Date of birth</string>
+    <string name="home_profile_dd">DD</string>
+    <string name="home_profile_finish_description">By tapping finish, I agree to the Samsung Health Monitor’s<annotation type="link_tnc"> Terms of Use</annotation> and<annotation type="link"> Privacy Policy</annotation>.</string>
+    <string name="home_profile_first_name">First name</string>
+    <string name="home_profile_gender">Gender</string>
+    <string name="home_profile_last_name">Last name</string>
+    <string name="home_profile_name">Name</string>
+    <string name="home_profile_yyyy">YYYY</string>
+    <string name="home_setup_connected_description">Use this watch to measure your blood pressure.</string>
+    <string name="home_setup_connected_header">Connected watch found</string>
+    <string name="home_setup_continue_without_a_watch">Continue without a watch</string>
+    <string name="home_setup_disconnected_description">This app requires a paired compatible Samsung Galaxy Watch to work. You can get an overview of the app by continuing without a paired compatible watch.</string>
+    <string name="home_setup_disconnected_header">No compatible watch found</string>
+    <string name="home_setup_tnc_pp">"By tapping Continue, I agree to the Samsung Health Monitor's"<annotation type="link_tnc"> Terms of Use</annotation> and<annotation type="link"> Privacy Policy</annotation>.</string>
+    <string name="home_setup_tnc_pp_confirm_popup_description">You must agree to the Terms of Use and Privacy Policy to continue using Samsung Health Monitor.</string>
+    <string name="home_setup_tnc_pp_confirm_popup_title">Are you sure you want to exit?</string>
+    <string name="home_user_profile_confirm_and_save">Confirm and save</string>
+    <string name="home_user_profile_create_your_profile">Create your profile</string>
+    <string name="home_user_profile_edit_your_profile">Edit your profile</string>
+    <string name="home_util_prompt_not_selected">Not selected</string>
+    <string name="home_util_prompt_selected">Selected</string>
+    <string name="how_to_learn_how_to_measure">Learn how to measure blood pressure on your Galaxy Watch.</string>
+    <string name="how_to_measure">How to measure</string>
+    <string name="how_to_use">How to use</string>
+    <string name="how_to_use_blood_pressure_results">Reviewing your blood pressure measurements</string>
+    <string name="how_to_use_bp_result_1">On your Galaxy Watch</string>
+    <string name="how_to_use_bp_result_2">On your Galaxy Phone</string>
+    <string name="how_to_use_bp_result_2_desc">When a Bluetooth connection is established between your Galaxy Watch and the Galaxy phone you used to calibrate the Galaxy Watch, your measurement results are synced to the BP App on the Galaxy phone. You can share this information with your doctor for review or consultation.</string>
+    <string name="how_to_use_bp_result_note">&lt;b>Note:&lt;/b> How many results you can store on your Galaxy phone depends on the amount of storage memory your Galaxy phone has.</string>
+    <string name="how_to_use_calibrating_your_galaxy_watch">Calibrating your Galaxy Watch</string>
+    <string name="how_to_use_measuring_bp">Measuring your blood pressure using your Galaxy Watch</string>
+    <string name="how_to_use_measuring_bp_1">After you have calibrated your Galaxy Watch with the FDA-cleared upper-arm, cuff-based blood pressure monitor, you are ready to use the BP App on your Galaxy Watch to measure your blood pressure. You will not need to use the cuff-based monitor again until the next calibration in 28 days.</string>
+    <string name="how_to_use_measuring_bp_2">To ensure a more accurate blood pressure measurement, do the following:</string>
+    <string name="how_to_use_measuring_bp_2_1">Wear your Galaxy Watch on the same wrist as during the calibration and make sure the Galaxy Watch strap is snug around your wrist, but not too tight.</string>
+    <string name="how_to_use_measuring_bp_2_10">During the measurement, breathe normally. Do not try to deepen or slow down your breath.</string>
+    <string name="how_to_use_measuring_bp_2_2">30 minutes before doing the measurement, do not have any alcohol or caffeine, and do not smoke, exercise, or bathe.</string>
+    <string name="how_to_use_measuring_bp_2_3">Make sure your arm and wrist are dry and free of excessive perspiration or skin lotion.</string>
+    <string name="how_to_use_measuring_bp_2_4">Do the measurement indoors in a quiet place.</string>
+    <string name="how_to_use_measuring_bp_2_5">Put a comfortable chair next to a table.</string>
+    <string name="how_to_use_measuring_bp_2_6">Sit in the chair with your back well-supported, your legs uncrossed, and your feet flat on the ground.</string>
+    <string name="how_to_use_measuring_bp_2_7">Let your hands and forearms rest on the table.</string>
+    <string name="how_to_use_measuring_bp_2_8">Rest in this position for at least 5 minutes before starting the measurement.</string>
+    <string name="how_to_use_measuring_bp_2_9">When you start the measurement, stay still and do not move your arm or talk while the Galaxy Watch takes the measurement.</string>
+    <string name="how_to_use_measuring_bp_3">To measure your blood pressure</string>
+    <string name="how_to_use_measuring_bp_3_1">Press the &lt;b>Measure&lt;/b> button on the Galaxy Watch.</string>
+    <string name="how_to_use_measuring_bp_3_2_1">If the measurement is successful, blood pressure measurements including systolic and diastolic readings appear on the Galaxy Watch face.</string>
+    <string name="how_to_use_measuring_bp_3_2_2">If the measurement is unsuccessful (for example, because you moved or because the signal was not strong enough), the Galaxy Watch displays an error message.</string>
+    <string name="how_to_use_onboarding_1">To ensure more accurate calibration, do the following:</string>
+    <string name="how_to_use_onboarding_1_1">30 minutes before doing the calibration, do not have any alcohol or caffeine, and do not smoke, exercise, or bathe.</string>
+    <string name="how_to_use_onboarding_1_2">Make sure your arm and wrist are dry and free of excessive perspiration or skin lotion.</string>
+    <string name="how_to_use_onboarding_1_3">Do the calibration indoors in a quiet place.</string>
+    <string name="how_to_use_onboarding_1_4">Put a comfortable chair next to a table.</string>
+    <string name="how_to_use_onboarding_1_5">Sit in the chair with your back well-supported, your legs uncrossed, and your feet flat on the ground.</string>
+    <string name="how_to_use_onboarding_1_6">Let your hands and forearms rest on the table.</string>
+    <string name="how_to_use_onboarding_1_7">Rest in this position for at least 5 minutes before starting the calibration.</string>
+    <string name="how_to_use_onboarding_1_8">When you start the calibration, stay still and do not move your arm or talk while the cuff-based blood pressure monitor performs the measurement.</string>
+    <string name="how_to_use_onboarding_1_9">During the measurement, breathe normally. Do not try to deepen or slow down your breath.</string>
+    <string name="how_to_use_onboarding_2">To calibrate your Galaxy Watch</string>
+    <string name="how_to_use_onboarding_2_1">Place the blood pressure cuff on an upper arm.</string>
+    <string name="how_to_use_onboarding_2_2">Wear the Samsung Galaxy Watch on the wrist of the other arm. Make sure the Galaxy Watch strap is snug around your wrist, but not too tight.</string>
+    <string name="how_to_use_onboarding_2_3">Place your Galaxy phone on the table, within easy reach.</string>
+    <string name="how_to_use_onboarding_2_4">On your Galaxy phone, open the BP App and follow the onscreen instructions to do the following:</string>
+    <string name="how_to_use_onboarding_2_4_a">a.</string>
+    <string name="how_to_use_onboarding_2_4_a_desc">Start the blood pressure measurement on the cuff-based blood pressure monitor.</string>
+    <string name="how_to_use_onboarding_2_4_b">b.</string>
+    <string name="how_to_use_onboarding_2_4_b_desc">Measurement on the Galaxy Watch will begin automatically.</string>
+    <string name="how_to_use_onboarding_2_4_c">c.</string>
+    <string name="how_to_use_onboarding_2_4_c_desc">Enter the cuff-based blood pressure monitor reading in the phone BP App.</string>
+    <string name="how_to_use_onboarding_2_4_d">d.</string>
+    <string name="how_to_use_onboarding_2_4_d_desc">Repeat Steps a.-c. two more times (for a total of three measurements) to finish the Galaxy Watch calibration.</string>
+    <string name="how_to_use_onboarding_note">&lt;b>Note:&lt;/b> Make sure that you finish the three measurements required for calibration within 3 days. To keep your Galaxy Watch properly calibrated, you must calibrate it every 28 days, as directed by the BP App. You may also calibrate your Galaxy Watch any time before then by selecting &lt;b>%s&lt;/b> from the menu on the Blood Pressure History screen.</string>
+    <string name="how_to_use_onboarding_notice_desc">"　　During calibration, the app's calibration range for blood-pressure readings is as follows:"</string>
+    <string name="how_to_use_onboarding_notice_desc_dia">Diastolic: 50–110</string>
+    <string name="how_to_use_onboarding_notice_desc_sys">Systolic: 80–170</string>
+    <string name="how_to_use_onboarding_top_caution">　　To ensure more accurate measurements, be sure to calibrate your Galaxy Watch with an FDA-cleared upper-arm, cuff-based blood pressure monitor. Before you start the calibration, read the instructions that accompany the blood pressure monitor and make sure you know how to use it.</string>
+    <string name="how_to_use_profile_1">Before you can start measuring your blood pressure using the Blood Pressure application (BP App), you must set up your BP App profile and calibrate your Galaxy Watch.</string>
+    <string name="how_to_use_profile_1_1">Ensure that your Galaxy Watch is compatible with the BP App.</string>
+    <string name="how_to_use_profile_1_1_link">View compatible watches</string>
+    <string name="how_to_use_profile_1_2">Ensure that your Galaxy Watch is paired via Bluetooth with the Galaxy phone you will use for your blood pressure measurements.</string>
+    <string name="how_to_use_profile_1_3">If the BP App is installed on your Galaxy Watch, open the BP App and follow the onscreen set-up instructions.</string>
+    <string name="how_to_use_profile_2">To set up the BP App Profile</string>
+    <string name="how_to_use_profile_2_1">Download the Samsung Health Monitor App from the Google Play Store or the Galaxy Store.</string>
+    <string name="how_to_use_profile_2_2">Complete and confirm the profile set-up and agree to the terms of use.</string>
+    <string name="how_to_use_profile_2_3">Select the Blood Pressure option and calibrate your Galaxy Watch.</string>
+    <string name="how_to_use_setting_up_bp_app">Setting up the Blood Pressure application</string>
+    <string name="library_android_database_sqlcipher_author">Zetetic, LLC</string>
+    <string name="library_android_database_sqlcipher_authorWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_isOpenSource">true</string>
+    <string name="library_android_database_sqlcipher_libraryDescription">Android SQLite API based on SQLCipher</string>
+    <string name="library_android_database_sqlcipher_libraryName">SQLCipher for Android</string>
+    <string name="library_android_database_sqlcipher_libraryVersion">${clientVersionNumber}</string>
+    <string name="library_android_database_sqlcipher_libraryWebsite">https://www.zetetic.net/sqlcipher/</string>
+    <string name="library_android_database_sqlcipher_licenseLink">https://www.zetetic.net/sqlcipher/license/</string>
+    <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="open_source_license_announcement_body">Some software components of this product incorporate source code covered under the Apache and BSD License.</string>
+    <string name="open_source_license_announcement_title">Open Source Announcement</string>
+    <string name="open_source_license_apache">"Apache License, Version 2.0
+ 
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+ 1. Definitions.
+
+ \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+ \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+ \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+ \"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+ \"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+ \"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+2. Grant of Copyright License.
+
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+
+3. Grant of Patent License.
+
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+
+4. Redistribution.
+
+You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
+1. You must give any other recipients of the Work or Derivative Works a copy of this License; and
+
+2. You must cause any modified files to carry prominent notices stating that You changed the files; and
+
+3. You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+
+4. If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+
+5. Submission of Contributions.
+
+Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+
+6. Trademarks.
+
+This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+7. Disclaimer of Warranty.
+
+Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+8. Limitation of Liability.
+
+In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+
+9. Accepting Warranty or Additional Liability.
+
+While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the Apache License to your work
+
+To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets \"[]\" replaced with your own identifying information. (Don"</string>
+    <string name="open_source_license_bsd">"The BSD 2-Clause License
+
+The following is a BSD 2-Clause license template. To generate your own license, change the values of OWNER and YEAR from their original values as given here, and substitute your own.
+
+Note: see also the BSD-3-Clause license.
+
+ This prelude is not part of the license.
+= Regents of the University of California
+= 1998
+
+In the original BSD license, both occurrences of the phrase \"COPYRIGHT HOLDERS AND CONTRIBUTORS\" in the disclaimer read \"REGENTS AND CONTRIBUTORS\".
+
+Here is the license template:
+
+Copyright (©) ,
+ All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="picked_content_is">picked content is :</string>
+    <string name="popup_update_description_the_blood_pressure_app">The blood pressure app on your watch needs to be updated to the latest version %s to continue.</string>
+    <string name="popup_update_popup_description_samsung_health_monitor">Samsung Health Monitor needs to be updated to the latest version %s to continue.</string>
+    <string name="popup_update_popup_title">New update available</string>
+    <string name="program_plugin_drop_program">Drop program</string>
+    <string name="samsung_health_sdk_error">Please make Samsung Health available</string>
+    <string name="samsung_health_sdk_not_agreed">Please agree with Samsung Health policy</string>
+    <string name="samsung_health_sdk_not_available">Connection with Samsung Health is not available</string>
+    <string name="samsung_health_sdk_not_enabled">Please enable Samsung Health</string>
+    <string name="samsung_health_sdk_not_install">Please install Samsung Health</string>
+    <string name="samsung_health_sdk_not_upgrade">Please upgrade Samsung Health</string>
+    <string name="search_menu_title">Search</string>
+    <string name="share">Share</string>
+    <string name="share_image_storage_error">Unable to save. Not enough memory.</string>
+    <string name="share_last_month">Last month</string>
+    <string name="share_last_three_months">Last 3 months</string>
+    <string name="share_last_two_weeks">Last 2 weeks</string>
+    <string name="share_last_week">Last week</string>
+    <string name="share_via">Share via</string>
+    <string name="share_year_to_date">Year to date</string>
+    <string name="shealth_monitor_about">About</string>
+    <string name="shealth_monitor_accessories">Accessories</string>
+    <string name="shealth_monitor_all">All</string>
+    <string name="shealth_monitor_blood_pressure">Blood Pressure</string>
+    <string name="shealth_monitor_bo_history_warning">Do not change your medications or dosage based on these numbers. Always talk to your doctor first.</string>
+    <string name="shealth_monitor_bo_history_warning_highlight">change your medications or dosage</string>
+    <string name="shealth_monitor_bp_2nd_measure_later_popup_title">Are you sure you want to take the 2nd calibration measurement later?</string>
+    <string name="shealth_monitor_bp_avg_ps">Avg. %s</string>
+    <string name="shealth_monitor_bp_avoid_caffeine_alcohol_nicotine_and_exercise_30_minutes_before_measuring">Avoid caffeine, alcohol, nicotine and exercise 30 minutes before measuring.</string>
+    <string name="shealth_monitor_bp_before_proceeding_you_should_know">Before proceeding, you should know:</string>
+    <string name="shealth_monitor_bp_card_calibrate_continue">Continue calibration</string>
+    <string name="shealth_monitor_bp_card_calibrate_watch">Calibrate the watch</string>
+    <string name="shealth_monitor_bp_card_calibration_first">For the watch to measure your blood pressure, you must first calibrate it with a cuff-based blood pressure monitor.</string>
+    <string name="shealth_monitor_bp_card_calibration_second">Take two more measurements to complete watch calibration.</string>
+    <string name="shealth_monitor_bp_card_calibration_third">Take the last measurement to complete watch calibration.</string>
+    <string name="shealth_monitor_bp_continue_calibration">Continue calibration</string>
+    <string name="shealth_monitor_bp_continue_calibration_desc_1_day">You will need to take %d calibration measurements in 1 day to finish calibration.</string>
+    <string name="shealth_monitor_bp_continue_calibration_desc_n_days">You will need to take %1$d calibration measurements in %2$d days to finish calibration.</string>
+    <string name="shealth_monitor_bp_data">BP Data</string>
+    <string name="shealth_monitor_bp_data_card_add_note">Add a note</string>
+    <string name="shealth_monitor_bp_data_card_edit_note">Edit note</string>
+    <string name="shealth_monitor_bp_data_card_swipe_up">Swipe up to view more</string>
+    <string name="shealth_monitor_bp_data_card_title">Blood pressure readings</string>
+    <string name="shealth_monitor_bp_day">Day</string>
+    <string name="shealth_monitor_bp_delete_bp_measurement">Delete blood pressure measurement?</string>
+    <string name="shealth_monitor_bp_device_info">This data was measured by %s</string>
+    <string name="shealth_monitor_bp_dia">DIA</string>
+    <string name="shealth_monitor_bp_dia_eng">DIA</string>
+    <string name="shealth_monitor_bp_diastolic">Diastolic</string>
+    <string name="shealth_monitor_bp_do_not_change_your_medications_or_dosage">Do not change your medications or dosage based on watch readings. Always talk to your doctor first.</string>
+    <string name="shealth_monitor_bp_do_not_use_if_you_are_pregnant">Do not use if you are pregnant.</string>
+    <string name="shealth_monitor_bp_do_not_use_if_you_have_ps">Do not use if you have %s.</string>
+    <string name="shealth_monitor_bp_ensure_higher_calibration_accuracy">To ensure higher calibration accuracy, calibrate with an FDA-cleared upper-arm, cuff based blood pressure monitor.</string>
+    <string name="shealth_monitor_bp_expired_calibration_desc">Your watch calibration has expired. Follow instructions to recalibrate your watch.</string>
+    <string name="shealth_monitor_bp_expired_continue_calibration_desc_1_day">You are required to take %d calibration measurements in 1 day in order to take your blood pressure measurement on your watch.</string>
+    <string name="shealth_monitor_bp_expired_continue_calibration_desc_n_days">You are required to take %1$d calibration measurements in %2$d days in order to take your blood pressure measurement on your watch.</string>
+    <string name="shealth_monitor_bp_get_the_readings_from_your_bp_monitor">Get the readings from your Blood Pressure Monitor?</string>
+    <string name="shealth_monitor_bp_history_name">Blood pressure readings</string>
+    <string name="shealth_monitor_bp_history_recalibrate_button">Recalibrate the watch</string>
+    <string name="shealth_monitor_bp_history_recalibrate_desc_1">Recalibrating your watch every 28 days is required to ensure accurate blood pressure results.</string>
+    <string name="shealth_monitor_bp_history_recalibrate_title">Recalibrate</string>
+    <string name="shealth_monitor_bp_history_recalibrate_what">What is calibration?</string>
+    <string name="shealth_monitor_bp_history_recalibrate_what_body">Calibration is using an FDA-cleared upper-arm, blood-pressure cuff to set a reference point for the watch to use when measuring your blood pressure.</string>
+    <string name="shealth_monitor_bp_history_recalibrate_why">Why is recalibration needed?</string>
+    <string name="shealth_monitor_bp_history_recalibrate_why_body">For the watch to keep measuring accurately, you must recalibrate it every 28 days.</string>
+    <string name="shealth_monitor_bp_how_do_i_know_if_it_is_fda_approved">How do I know if it is FDA approved?</string>
+    <string name="shealth_monitor_bp_in_the_next_step_you_will_need_to_start_your_bp_monitor">In the next step, you will need to start your Blood Pressure Monitor.</string>
+    <string name="shealth_monitor_bp_information">Information</string>
+    <string name="shealth_monitor_bp_information_desc_1">After the BP App on the Galaxy Watch successfully measures your blood pressure, the Galaxy Watch and the Galaxy phone display the following results:</string>
+    <string name="shealth_monitor_bp_information_desc_2">　　Do not change your medications or dosage based on these numbers. Always talk to your doctor first.</string>
+    <string name="shealth_monitor_bp_information_desc_2_1">"　　For On-Demand measurement, the app's measurement range for blood-pressure readings is as follows:"</string>
+    <string name="shealth_monitor_bp_information_desc_2_1_dia">Diastolic: 40–120</string>
+    <string name="shealth_monitor_bp_information_desc_2_1_sys">Systolic: 70–180</string>
+    <string name="shealth_monitor_bp_information_desc_3">*Individuals with Systolic BP and Diastolic BP in 2 categories should be designated to the higher BP category.</string>
+    <string name="shealth_monitor_bp_information_source">Source: ACC/AHA 2017 High Blood Pressure Clinical Practice Guideline</string>
+    <string name="shealth_monitor_bp_information_sub_desc_1">Systolic blood pressure (BP)</string>
+    <string name="shealth_monitor_bp_information_sub_desc_2">Diastolic blood pressure (BP)</string>
+    <string name="shealth_monitor_bp_information_sub_desc_3">Pulse (heart rate)</string>
+    <string name="shealth_monitor_bp_information_table_Elevated">Elevated</string>
+    <string name="shealth_monitor_bp_information_table_Elevated_rule">@string/shealth_monitor_bp_information_table_and</string>
+    <string name="shealth_monitor_bp_information_table_and">and</string>
+    <string name="shealth_monitor_bp_information_table_and_or">and/or</string>
+    <string name="shealth_monitor_bp_information_table_elevated_dia">&lt; 80</string>
+    <string name="shealth_monitor_bp_information_table_elevated_sys">120–129</string>
+    <string name="shealth_monitor_bp_information_table_hyper_1">Hypertension Stage 1</string>
+    <string name="shealth_monitor_bp_information_table_hyper_1_dia">80–90</string>
+    <string name="shealth_monitor_bp_information_table_hyper_1_sys">130–139</string>
+    <string name="shealth_monitor_bp_information_table_hyper_2">Hypertension Stage 2</string>
+    <string name="shealth_monitor_bp_information_table_hyper_2_dia">≥ 90</string>
+    <string name="shealth_monitor_bp_information_table_hyper_2_sys">≥ 140</string>
+    <string name="shealth_monitor_bp_information_table_hyper_crisis">Hypertension Crisis</string>
+    <string name="shealth_monitor_bp_information_table_normal">Normal</string>
+    <string name="shealth_monitor_bp_information_table_or">or</string>
+    <string name="shealth_monitor_bp_information_table_row_1">BP category</string>
+    <string name="shealth_monitor_bp_information_table_row_2">"Systolic
+(mmHg)"</string>
+    <string name="shealth_monitor_bp_information_table_row_3">"Diastolic
+(mmHg)"</string>
+    <string name="shealth_monitor_bp_information_table_title">Blood pressure classification* in adults (age 22 and above)</string>
+    <string name="shealth_monitor_bp_input_confirm_body">"The value you entered falls outside the app's calibration range. Check your blood pressure monitor to confirm that this value is correct."</string>
+    <string name="shealth_monitor_bp_input_monitor_value_error">The systolic value cannot be less than the diastolic value.</string>
+    <string name="shealth_monitor_bp_input_out_of_range_body_1">"The BP reading falls outside the app's calibration range. Re-measure with a cuff-based blood pressure monitor."</string>
+    <string name="shealth_monitor_bp_input_out_of_range_body_2">If you are experiencing unusual symptoms, call your doctor or local emergency services.</string>
+    <string name="shealth_monitor_bp_input_out_of_range_title">Out of range</string>
+    <string name="shealth_monitor_bp_intro_desc">"Blood pressure is a vital indicator of your health. Almost half of American adults have high blood pressure, the leading cause of heart disease and stroke with roughly half of the cases uncontrolled and many undiagnosed.
+
+Regularly monitoring your blood pressure using conventional cuff-based methods can be inconvenient and awkward. Samsung brings you this first-of-its-kind, personalized technology to help you easily monitor your blood pressure quickly and comfortably with your Samsung wearable."</string>
+    <string name="shealth_monitor_bp_intro_title">@string/shealth_monitor_introducing_bp_solution</string>
+    <string name="shealth_monitor_bp_last_measure_later_popup_title">Are you sure you want to take the last calibration measurement later?</string>
+    <string name="shealth_monitor_bp_learn_more">Learn more</string>
+    <string name="shealth_monitor_bp_make_sure_the_watch_is_snug_on_your_non_dominant_writst">Make sure the watch is snug on your non-dominant wrist.</string>
+    <string name="shealth_monitor_bp_make_sure_you_are_wearing_your_watch_and_cuff">Make sure you are wearing your watch and cuff correctly.</string>
+    <string name="shealth_monitor_bp_make_sure_your_bp_monitor_has_started">Make sure your blood pressure monitor has started.</string>
+    <string name="shealth_monitor_bp_measure_later">measure later</string>
+    <string name="shealth_monitor_bp_measure_later_popup_body">Your watch cannot take a blood pressure measurement until calibration is finished.</string>
+    <string name="shealth_monitor_bp_measurement_done_dialog_desc">Your watch will use this reading for calibration.</string>
+    <string name="shealth_monitor_bp_measurement_done_dialog_title">Is there a reading displayed on your blood pressure monitor?</string>
+    <string name="shealth_monitor_bp_measurement_stop_dialog_desc">You will restart the calibration measurement.</string>
+    <string name="shealth_monitor_bp_measurement_stop_dialog_title">Are you sure you want to stop this measurement?</string>
+    <string name="shealth_monitor_bp_measuring_error_cancel">The BP Monitor app on your watch is closed. You will need to retake this measurement.</string>
+    <string name="shealth_monitor_bp_measuring_error_cancel_title">Measurement stopped</string>
+    <string name="shealth_monitor_bp_measuring_error_low_battery">Battery too low. Charge your watch and try again.</string>
+    <string name="shealth_monitor_bp_measuring_error_not_enough_space">"There's not enough space on your watch. Delete some files or unused apps and try again."</string>
+    <string name="shealth_monitor_bp_measuring_error_signal_is_weak_title">Signal is weak</string>
+    <string name="shealth_monitor_bp_measuring_error_try_to_clean_desc">Make sure sensor is clean and the watch is snug on your wrist.</string>
+    <string name="shealth_monitor_bp_measuring_error_try_to_not_move_desc">Try to not move or talk. Sit quietly and try again.</string>
+    <string name="shealth_monitor_bp_measuring_error_try_to_rub_the_wrist_desc">Remove your watch, rub the wrist gently to warm up the skin and try again.</string>
+    <string name="shealth_monitor_bp_measuring_error_try_to_snug_desc">Make sure the watch is snug on your wrist.</string>
+    <string name="shealth_monitor_bp_measuring_error_unable_to_measure_title">Unable to measure</string>
+    <string name="shealth_monitor_bp_measuring_error_watch_is_detached_desc">Put on your watch and try again.</string>
+    <string name="shealth_monitor_bp_measuring_error_watch_is_detached_title">Watch is detached</string>
+    <string name="shealth_monitor_bp_medical_conditions_arrhythmia">Arrhythmia</string>
+    <string name="shealth_monitor_bp_medical_conditions_cardiomyopathy">Cardiomyopathy</string>
+    <string name="shealth_monitor_bp_medical_conditions_clotting_disorder">Clotting disorder or you are taking prescribed blood thinners</string>
+    <string name="shealth_monitor_bp_medical_conditions_diabetes">Diabetes</string>
+    <string name="shealth_monitor_bp_medical_conditions_end_stage_renal_disease">End-stage Renal Disease (ESRD)</string>
+    <string name="shealth_monitor_bp_medical_conditions_include">Medical conditions include:</string>
+    <string name="shealth_monitor_bp_medical_conditions_neurological_disorder">Neurological disorder (for example, tremors)</string>
+    <string name="shealth_monitor_bp_medical_conditions_other_known_peripheral_cardiovascular_disease">Other known cardiovascular disease</string>
+    <string name="shealth_monitor_bp_medical_conditions_peripheral_cardiovascular_disease">Peripheral vascular disease or compromised circulation</string>
+    <string name="shealth_monitor_bp_medical_conditions_prior_heart">Prior heart failure or heart attack</string>
+    <string name="shealth_monitor_bp_medical_conditions_valvular_disease">Valvular disease (diseases concerning the aortic valve)</string>
+    <string name="shealth_monitor_bp_mmhg">mmHg</string>
+    <string name="shealth_monitor_bp_month">Month</string>
+    <string name="shealth_monitor_bp_name">Blood pressure</string>
+    <string name="shealth_monitor_bp_notes">Notes</string>
+    <string name="shealth_monitor_bp_overview_of_the_calibration_process_of_your_watch">Overview of the calibration process of your watch:</string>
+    <string name="shealth_monitor_bp_pulse">Pulse</string>
+    <string name="shealth_monitor_bp_recalibration_reminder_desc_1_day">To continue taking blood pressure measurements on your watch, recalibrate your watch in 1 day.</string>
+    <string name="shealth_monitor_bp_recalibration_reminder_desc_n_days">To continue taking blood pressure measurements on your watch, recalibrate your watch in %d days.</string>
+    <string name="shealth_monitor_bp_recalibration_reminder_desc_today">To continue taking blood pressure measurements on your watch, recalibrate your watch in today.</string>
+    <string name="shealth_monitor_bp_restriction_card_age_restriction_description">The blood pressure feature is not intended for use by people under 22 years of age.</string>
+    <string name="shealth_monitor_bp_restriction_card_age_restriction_title">You must be at least 22 years old</string>
+    <string name="shealth_monitor_bp_restriction_card_not_available_description">Samsung Health Monitor is not available in your current location.</string>
+    <string name="shealth_monitor_bp_restriction_card_not_available_title">Service is not available</string>
+    <string name="shealth_monitor_bp_restriction_card_watch_incompatible_description">The blood pressure feature requires a Galaxy Watch Active 2 or later to work.</string>
+    <string name="shealth_monitor_bp_restriction_card_watch_incompatible_title">No compatible watch found</string>
+    <string name="shealth_monitor_bp_retake_the_measurement">Retake the measurement</string>
+    <string name="shealth_monitor_bp_select_items">Select items</string>
+    <string name="shealth_monitor_bp_selected">%d selected</string>
+    <string name="shealth_monitor_bp_start_your_bp_monitor_now">Start your Blood Pressure Monitor now.</string>
+    <string name="shealth_monitor_bp_sys">SYS</string>
+    <string name="shealth_monitor_bp_sys_eng">SYS</string>
+    <string name="shealth_monitor_bp_systolic">Systolic</string>
+    <string name="shealth_monitor_bp_take_the_ps_measurement">Take the %s measurement</string>
+    <string name="shealth_monitor_bp_take_three_simultaneous_measurements_on_your_watch_and_bp_monitor">Take three simultaneous measurements on your watch and Blood Pressure Monitor:</string>
+    <string name="shealth_monitor_bp_take_your_notes">Take your notes</string>
+    <string name="shealth_monitor_bp_these_medical_conditions">these medical conditions</string>
+    <string name="shealth_monitor_bp_view_full_history_chart">View full chart</string>
+    <string name="shealth_monitor_bp_view_more">View more</string>
+    <string name="shealth_monitor_bp_watch_measurement_finished">Watch measurement finished.</string>
+    <string name="shealth_monitor_bp_week">Week</string>
+    <string name="shealth_monitor_bp_you_will_follow_instructions_within_the_app_to_take_3_measurements">You will follow instructions within the phone app to take 3 measurements on your blood pressure cuff.</string>
+    <string name="shealth_monitor_bp_you_will_need_a_valid_bp_monitor">You will need a valid blood pressure monitor.</string>
+    <string name="shealth_monitor_bp_you_will_need_to_wear_your_watch_during_this_time">You will need to wear your watch during this time, so it can be calibrated.</string>
+    <string name="shealth_monitor_bp_your_watch_measurement_is_in_progress_sit_still_and_relax">Your watch measurement is in progress, sit still and relax.</string>
+    <string name="shealth_monitor_bp_your_watch_will_start_measuring_automatically_in_pd_second">Your watch will start measuring automatically in %d second.</string>
+    <string name="shealth_monitor_bp_your_watch_will_start_measuring_automatically_in_pd_seconds">Your watch will start measuring automatically in %d seconds.</string>
+    <string name="shealth_monitor_bp_your_watch_will_use_the_readings_as_the_first_measurement_result_for_calibration">Your watch will use the reading as the first measurement result for calibration.</string>
+    <string name="shealth_monitor_bpm">bpm</string>
+    <string name="shealth_monitor_calibrate_my_watch">Calibrate my watch</string>
+    <string name="shealth_monitor_calibration_finish_body">Now you can take a blood pressure measurement on your watch. Wear the watch on the same wrist as worn during calibration.</string>
+    <string name="shealth_monitor_calibration_finish_title">Calibration finished!</string>
+    <string name="shealth_monitor_calibration_first_measurement_finish_body">Keep the watch and cuff on. Follow instructions on the next screens to continue the calibration process.</string>
+    <string name="shealth_monitor_calibration_first_measurement_finish_title">"1st measurement
+completed!"</string>
+    <string name="shealth_monitor_calibration_measurement_finish_get_ready_body">Make sure your watch is on your non-dominant wrist, and your cuff is on the opposite arm.</string>
+    <string name="shealth_monitor_calibration_measurement_first_get_ready_body">Fit the Blood Pressure Monitor cuff on the arm opposite your watch.</string>
+    <string name="shealth_monitor_calibration_reminder">Calibration reminder</string>
+    <string name="shealth_monitor_calibration_second_measurement_finish_body">Keep the watch and cuff on. Take the last measurement to complete calibration.</string>
+    <string name="shealth_monitor_calibration_second_measurement_finish_title">"2nd measurement
+completed!"</string>
+    <string name="shealth_monitor_confirm">Confirm</string>
+    <string name="shealth_monitor_contact_us">Contact us</string>
+    <string name="shealth_monitor_data_is_empty">Data is empty</string>
+    <string name="shealth_monitor_deleting_dot">Deleting…</string>
+    <string name="shealth_monitor_edit">Edit</string>
+    <string name="shealth_monitor_enter_the_readings_from_your_bp_monitor">Enter the readings from your Blood Pressure Monitor:</string>
+    <string name="shealth_monitor_finish">Finish</string>
+    <string name="shealth_monitor_get_notification_when_watch_needs_calibration">Get notification when watch requires calibration.</string>
+    <string name="shealth_monitor_get_started">Get started</string>
+    <string name="shealth_monitor_history_item_can_not_enter_more">Can’t enter more than 150 characters.</string>
+    <string name="shealth_monitor_introducing_bp_solution">Introducing Samsung Blood Pressure Solution</string>
+    <string name="shealth_monitor_learn_more">Learn more</string>
+    <string name="shealth_monitor_loading_dot">Loading…</string>
+    <string name="shealth_monitor_main_swipe_up_to_start">Swipe up to start</string>
+    <string name="shealth_monitor_no">No</string>
+    <string name="shealth_monitor_no_data">No Data</string>
+    <string name="shealth_monitor_no_thanks">No, retake</string>
+    <string name="shealth_monitor_not_yet">Not yet</string>
+    <string name="shealth_monitor_notifications">Notifications</string>
+    <string name="shealth_monitor_pair_my_watch">Pair my watch</string>
+    <string name="shealth_monitor_profile_enter_a_valid_date_of_birth">Enter a valid date of birth.</string>
+    <string name="shealth_monitor_profile_enter_a_valid_name">Enter a valid name.</string>
+    <string name="shealth_monitor_profile_gender_Prefer_not_to_disclose">Prefer not to disclose</string>
+    <string name="shealth_monitor_profile_gender_female">Female</string>
+    <string name="shealth_monitor_profile_gender_male">Male</string>
+    <string name="shealth_monitor_profile_min_age_error_message">The blood pressure feature is not intended for use by people under 22 years of age. You will only see an overview of the app.</string>
+    <string name="shealth_monitor_profile_select_gender">Select Gender</string>
+    <string name="shealth_monitor_profile_select_month">Select Month</string>
+    <string name="shealth_monitor_profile_you_must_be_at_least_22_years_old">You must be at least 22 years old</string>
+    <string name="shealth_monitor_push_notifications">Push notifications</string>
+    <string name="shealth_monitor_save_your_changes_or_discard_them">Save your changes or discard them?</string>
+    <string name="shealth_monitor_saving_dot">Saving…</string>
+    <string name="shealth_monitor_something_went_wrong_try_again">Something went wrong. Try again later.</string>
+    <string name="shealth_monitor_splash_description">At Samsung, we bring our ground-breaking innovation to easily and efficiently measure your blood pressure anytime by personalizing this first of a kind technology for you.</string>
+    <string name="shealth_monitor_sync">Sync</string>
+    <string name="shealth_monitor_sync_data_now">Sync data now</string>
+    <string name="shealth_monitor_synced">Synced</string>
+    <string name="shealth_monitor_syncing">Syncing</string>
+    <string name="shealth_monitor_syncing_dot">Syncing…</string>
+    <string name="shealth_monitor_system_alert_battery_description">"Can't open the app. Battery too low. Charge your phone and try again."</string>
+    <string name="shealth_monitor_system_alert_battery_go_to">Ok</string>
+    <string name="shealth_monitor_system_alert_battery_title">Low battery</string>
+    <string name="shealth_monitor_system_alert_memory_description">"There's not enough memory on your phone. Close some unused apps and try again."</string>
+    <string name="shealth_monitor_system_alert_memory_go_to">Ok</string>
+    <string name="shealth_monitor_system_alert_memory_title">Not enough memory</string>
+    <string name="shealth_monitor_system_alert_storage_description">There’s not enough space on your phone. Delete some files or unused apps and try again.</string>
+    <string name="shealth_monitor_system_alert_storage_go_to">Ok</string>
+    <string name="shealth_monitor_system_alert_storage_title">Not enough space</string>
+    <string name="shealth_monitor_time_out_body">For calibration measurement accuracy, you will need to retake this measurement.</string>
+    <string name="shealth_monitor_time_out_title">Time out</string>
+    <string name="shealth_monitor_unable_to_sync_data">Unable to sync data</string>
+    <string name="shealth_monitor_unable_to_sync_data_watch_disconnected">Unable to sync data. Watch disconnected.</string>
+    <string name="shealth_monitor_yes">Yes</string>
+    <string name="shealth_monitor_yes_enter_now">Yes, enter now</string>
+    <string name="shealth_monitory_privacy_policy_desc_0_0">Effective Date: Jan 01, 2020</string>
+    <string name="shealth_monitory_privacy_policy_desc_0_1">This Samsung Health Monitor U.S. Privacy Policy explains the privacy practices of Samsung Electronics Co., Ltd. and its subsidiaries and affiliates (Samsung, we, us, our) with respect to the information collected through the Samsung Health Monitor application, connected applications, services and accounts, and associated accessories (Samsung Health Monitor). This Privacy Policy supplements, and should be read in conjunction with, the Samsung Privacy Policy, available at https://account.samsung.com/membership/pp, which provides additional information on Samsung’s privacy practices.</string>
+    <string name="shealth_monitory_privacy_policy_desc_1_0">"We may collect and store the following information that you provide directly or generate through your use of Samsung Health Monitor:
+• in-app usage information (menus and settings clicked, features used (frequency and duration of use), and errors occurred)."</string>
+    <string name="shealth_monitory_privacy_policy_desc_2_0">"We may use this information to:
+• deal with the error or unexpected event, as well as enhance a user experience and strengthen stickiness through statistical analysis."</string>
+    <string name="shealth_monitory_privacy_policy_desc_3_0">We maintain administrative, technical and physical safeguards designed to protect personal information we obtain through Samsung Health Monitor against accidental, unlawful or unauthorized destruction, loss, alteration, access, disclosure or use.</string>
+    <string name="shealth_monitory_privacy_policy_desc_4_0">This Privacy Policy may be updated periodically and without prior notice to you to reflect changes in our personal information practices with respect to Samsung Health Monitor. We will indicate at the top of the notice when it was most recently updated.</string>
+    <string name="shealth_monitory_privacy_policy_desc_5_0">To update your preferences, update or correct your information, submit a request or ask us questions about this Privacy Policy, please contact us by email at NAPrivacy@sea.samsung.com or write to us at:</string>
+    <string name="shealth_monitory_privacy_policy_desc_5_1">"Privacy Office
+Samsung Electronics America, Inc.
+85 Challenger Road
+Ridgefield Park, NJ 07660"</string>
+    <string name="shealth_monitory_privacy_policy_title_0">Samsung Health Monitor U.S. Privacy Policy</string>
+    <string name="shealth_monitory_privacy_policy_title_1">1. INFORMATION WE COLLECT</string>
+    <string name="shealth_monitory_privacy_policy_title_2">2. HOW WE USE THE INFORMATION WE COLLECT</string>
+    <string name="shealth_monitory_privacy_policy_title_3">3. HOW WE PROTECT PERSONAL INFORMATION</string>
+    <string name="shealth_monitory_privacy_policy_title_4">4. UPDATES TO THIS PRIVACY POLICY</string>
+    <string name="shealth_monitory_privacy_policy_title_5">5. HOW TO CONTACT US</string>
+    <string name="shealth_monitory_tnc_desc_0_0">IMPORTANT – READ CAREFULLY. THESE TERMS OF SERVICE (“TOS”) ARE A LEGAL AGREEMENT BETWEEN YOU AND SAMSUNG ELECTRONICS CO., LTD. AND/OR ITS AFFILIATES (COLLECTIVELY, “SAMSUNG”) FOR THE SAMSUNG HEALTH MONITOR SERVICE AND ANY RELEVANT INFORMATION, FEATURES, FUNCTIONS, AND ADDITIONAL APPLICATIONS OR SOFTWARE THEREOF (COLLECTIVELY, “SAMSUNG HEALTH MONITOR” OR “SERVICE”) PROVIDED BY SAMSUNG OR ITS THIRD-PARTY SUPPLIERS OR LICENSORS. BY AGREEING TO THESE TOS OR BY INSTALLING OR OTHERWISE USING SAMSUNG HEALTH MONITOR, YOU AGREE TO BE BOUND BY THESE TOS. IF YOU DO NOT AGREE TO THESE TOS, THEN DO NOT INSTALL OR USE SAMSUNG HEALTH MONITOR.</string>
+    <string name="shealth_monitory_tnc_desc_10_0">These TOS are effective until terminated. You can terminate these TOS by ceasing your use of the SERVICE, and uninstalling, deleting, and returning all related software, documentation, and other materials provided by Samsung, including backup copies thereof. Should you not comply with these TOS, your rights based on the TOS will be automatically terminated without notice from Samsung. Upon termination of these TOS, you must immediately cease all use of the SERVICE. For the purposes of clarity, Samsung may terminate these TOS and the SERVICE with notice to you (e.g. via a service website, application pop-up, email, etc.).</string>
+    <string name="shealth_monitory_tnc_desc_11_0">SAMSUNG HEALTH MONITOR AND SAMSUNG HEALTH MONITOR IPR ARE PROVIDED “AS IS” AND ON AN “AS AVAILABLE” BASIS, WITHOUT WARRANTIES OR CONTRACTUAL CONDITIONS OF ANY KIND FROM SAMSUNG OR ITS THIRD-PARTY LICENSORS OR SUPPLIERS, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, SAMSUNG DISCLAIMS ALL WARRANTIES EXPRESSED, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, RELIABILITY, AVAILABILITY, ACCURACY, LACK OF VIRUSES, QUIET ENJOYMENT, NON INFRINGEMENT OF THIRD-PARTY RIGHTS, OR OTHER VIOLATION OF RIGHTS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM SAMSUNG SHALL BE DEEMED TO ALTER THIS DISCLAIMER, OR TO CREATE ANY WARRANTY OF ANY SORT FROM SAMSUNG.</string>
+    <string name="shealth_monitory_tnc_desc_11_1">WITHOUT LIMITING THE FOREGOING, SAMSUNG DOES NOT WARRANT THAT ACCESS TO SAMSUNG HEALTH, OR ANY FEATURE OR FUNCTION THEREIN, WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS, IF ANY, WILL BE CORRECTED; NOR DOES SAMSUNG MAKE ANY REPRESENTATIONS ABOUT THE ACCURACY, SAFETY, RELIABILITY, CURRENCY, QUALITY, COMPLETENESS, USEFULNESS, PERFORMANCE, SECURITY, LEGALITY, OR SUITABILITY OF SAMSUNG HEALTH MONITOR OR ANY OF THE INFORMATION CONTAINED THEREIN.</string>
+    <string name="shealth_monitory_tnc_desc_12_0">SAMSUNG, ITS LICENSORS AND SUPPLIERS WILL NOT BE LIABLE FOR ANY INJURIES, DAMAGES, OR LOSS (COLLECTIVELY, “DAMAGES”) OF ANY KIND ARISING OUT OF OR RELATING TO YOUR USE, THE INABILITY TO USE, OR YOUR RELIANCE UPON THE SERVICE, ITS CONTENT OR FUNCTIONALITY, INCLUDING, BUT NOT LIMITED TO, DAMAGES CAUSED BY OR RELATED TO ERRORS, OMISSIONS, INTERRUPTIONS, DEFECTS, DELAYS IN OPERATION OR TRANSMISSION, COMPUTER VIRUSES, FAILURE TO CONNECT TO TELECOMMUNICATIONS INFRASTRUCTURE OR THE INTERNET, NETWORK CHARGES, PERSONAL INJURY, LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR OTHER DATA, AND ALL OTHER DIRECT, INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, EVEN IF SAMSUNG HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE EXCLUSIONS OR LIMITATIONS MAY NOT APPLY TO YOU. NOTWITHSTANDING THE FOREGOING, SAMSUNG’S TOTAL LIABILITY TO YOU FOR ALL LOSSES, DAMAGES, CAUSES OF ACTION, INCLUDING, BUT NOT LIMITED TO, THOSE BASED ON BREACH OF CONTRACT, NEGLIGENCE, NEGLIGENT REFERRAL, STRICT LIABILITY, MALPRACTICE, TORT, OR OTHERWISE, ARISING OUT OF YOUR USE OF THE SERVICE, OR ANY OTHER PROVISION OF THESE TOS, SHALL NOT EXCEED THE AMOUNT YOU PAID SAMSUNG SPECIFICALLY FOR THIS SERVICE. THE FOREGOING LIMITATIONS, EXCLUSIONS, AND DISCLAIMERS IN THESE TOS SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EVEN IF ANY REMEDY FAILS ITS ESSENTIAL PURPOSE.</string>
+    <string name="shealth_monitory_tnc_desc_13_0">YOU AGREE TO RELEASE, INDEMNIFY, DEFEND, AND HOLD HARMLESS SAMSUNG, ITS LICENSORS, SUPPLIERS, CONTRACTORS, EMPLOYEES, AND AGENTS FROM ANY CLAIMS, LOSSES, DAMAGES, LIABILITIES (INCLUDING LEGAL FEES AND EXPENSES) ARISING OUT OF YOUR USE OF THE SERVICE, YOUR VIOLATION OF THE RIGHTS OF ANY THIRD PARTY, OR ANY BREACH OF THESE TOS. YOU EXPRESSLY WAIVE THE PROVISIONS OF ANY STATE OR LOCAL LAW LIMITING OR PROHIBITING A GENERAL RELEASE.</string>
+    <string name="shealth_monitory_tnc_desc_13_1">YOU ACKNOWLEDGE AND AGREE THAT THE ABOVE PROVISIONS OF CLAUSES 10, 11, AND 12 ARE REASONABLE GIVEN THE BENEFITS OF THE SERVICES AND YOU WILL ACCEPT SUCH RISK AND/OR INSURE ACCORDINGLY.</string>
+    <string name="shealth_monitory_tnc_desc_14_0">This TOS are governed by the laws of the jurisdiction where you are a resident, without regard to its conflict of law provisions. This TOS shall not be governed by the UN Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.</string>
+    <string name="shealth_monitory_tnc_desc_15_0">If a dispute, controversy, or difference arising in any way from these TOS or your use of the SERVICE is not amicably settled, it shall be subject to arbitration proceedings under the arbitration rules of the International Chamber of Commerce in the place of the respondent. Notwithstanding the foregoing, Samsung may apply for injunctive remedies (or an equivalent type of urgent legal relief) in any court of competent jurisdiction.</string>
+    <string name="shealth_monitory_tnc_desc_16_0">These TOS are the entire agreement between you and Samsung relating to the SERVICE and supersede all prior or contemporaneous oral or written communications, proposals, and representations with respect to the SERVICE or any other subject matter covered by these TOS. If any provision of these TOS is held to be void, invalid, unenforceable, or illegal, the other provisions shall continue in full force and effect.</string>
+    <string name="shealth_monitory_tnc_desc_17_0">Last Updated on 09/05/2019</string>
+    <string name="shealth_monitory_tnc_desc_1_0">SAMSUNG HEALTH MONITOR IS INTENDED FOR FITNESS AND WELLNESS PURPOSES ONLY AND IS NOT INTENDED FOR USE IN THE DIAGNOSIS OF DISEASE OR OTHER CONDITIONS, OR IN THE CURE, MITIGATION, TREATMENT, OR PREVENTION OF DISEASE. SAMSUNG HEALTH MONITOR IS NOT INTENDED FOR USE IN THE DETECTION, DIAGNOSIS, MONITORING, MANAGEMENT, OR TREATMENT OF ANY MEDICAL CONDITION, DISEASE, OR VITAL PHYSIOLOGICAL PROCESS, OR FOR THE TRANSMISSION OF TIME-SENSITIVE HEALTH INFORMATION. ANY INFORMATION FOUND, ACQUIRED, OR ACCESSED THROUGH SAMSUNG HEALTH MONITOR IS MADE AVAILABLE ONLY FOR YOUR CONVENIENCE AND SHOULD NOT BE TREATED AS MEDICAL ADVICE. YOU SHOULD SEEK MEDICAL ADVICE FROM A DOCTOR BEFORE STARTING A NEW FITNESS, MEDITATIONS, DOSAGE OR LIFESTYLE REGIMEN. YOU UNDERSTAND AND AGREE THAT ANY INFORMATION YOU OBTAIN FROM SAMSUNG HEALTH MONITOR MAY NOT BE SUITABLE, ACCURATE, COMPLETE, OR RELIABLE AND THAT SAMSUNG WILL NOT BE HELD LIABLE FOR ANY INJURIES, DAMAGES, LOSSES, AND/OR COSTS ASSOCIATED WITH SAMSUNG HEALTH MONITOR, NOR FOR THE ACCURACY OR RELIABILITY OF ANY INFORMATION FOUND, ACQUIRED, OR ACCESSED THROUGH SAMSUNG HEALTH MONITOR. YOU ACKNOWLEDGE AND AGREE THAT SAMSUNG IS NOT ENGAGED IN THE PRACTICE OF MEDICINE AND THAT SAMSUNG DOES NOT DETERMINE THE APPROPRIATE MEDICAL USE OF SAMSUNG HEALTH MONITOR. SAMSUNG AND ITS LICENSORS AND SUPPLIERS EXPRESSLY DISCLAIM ANY AND ALL LIABILITY RESULTING FROM THE PROVIDERS’ DELIVERY OF THIRD-PARTY SERVICES, CONTENT, AND SERVICES.</string>
+    <string name="shealth_monitory_tnc_desc_1_1">These TOS may be revised or updated from time to time. You hereby acknowledge that SAMSUNG HEALTH MONITOR may be changed, updated, or discontinued with or without prior notice. Your use of SAMSUNG HEALTH MONITOR may be suspended or terminated without notice if you breach these TOS or engage in any illegal, inappropriate, or prohibited behavior, such as the rooting, decompiling, or reverse engineering of your mobile device or any of its software. To the extent of any conflict between these TOS and any other terms and conditions you have agreed to regarding your use of your mobile device, these TOS will prevail.</string>
+    <string name="shealth_monitory_tnc_desc_1_2">SAMSUNG HEALTH MONITOR may help you manage your overall fitness and wellness by providing relevant reference information and tools, including tools to help you track your activities and manage your wellbeing. SAMSUNG HEALTH MONITOR’s available functions, features, and additional applications may vary from country to country. You should check the features and applications available in your specific region. You can also use SAMSUNG HEALTH MONITOR and manage your data.</string>
+    <string name="shealth_monitory_tnc_desc_1_3">"SAMSUNG HEALTH MONITOR may make available certain services, connecting devices, websites, and software from third-party service providers (“Third-Party Services”), provided and powered by third-party providers, that will enable you to directly communicate with such providers’ content, devices, and/or software (“Provider”). The Providers are independent of Samsung and SAMSUNG HEALTH MONITOR does not furnish any of the Providers’ services itself, but rather offers a platform on which you may interact directly with the Providers and their services.
+You hereby acknowledge and agree that any Third-Party Services are being provided to you by the Provider and not by Samsung. Samsung is not responsible for the accuracy, reliability, timeliness, and completeness of information contained in any Third-Party Services, or for the security or safety of using them.
+Samsung is not practicing medicine or any healthcare profession through its offer of such Third-Party Services. Your interactions with Providers are not intended to take the place of your relationship with your regular healthcare providers. Samsung does not evaluate, recommend, endorse, or check the credentials of any Third-Party Services. Samsung does not protect, monitor, or otherwise have access to any information you share with Third-Party Services."</string>
+    <string name="shealth_monitory_tnc_desc_1_4">The use of Third-Party Services will be subject to the terms and conditions provided by the respective Provider. You will be presented with the Provider’s terms of use and/or other legal agreements before using a Third-Party Service for the first time. You should read and understand such a third party’s terms of use and/or other legal agreements before using the Third-Party Services. If you do not agree with the Third-Party Service’s terms, you may not use the Third-Party Service. If you agree, but change your mind later, you should stop using such Third-Party Service.</string>
+    <string name="shealth_monitory_tnc_desc_2_0">Subject to the terms of these TOS, you are granted a limited, non-exclusive, and revocable license to install, access, and use the SERVICE.</string>
+    <string name="shealth_monitory_tnc_desc_2_1">The services and features provided by the SERVICE or Update (defined below) thereto may vary or be limited depending on certain factors, including, without limitation, your country, device, operating system, or carrier.</string>
+    <string name="shealth_monitory_tnc_desc_2_2">If you are 13 or older but under the age of 18, you represent that you have reviewed these TOS with your parent or legal guardian and that you and your parent or guardian understand and consent to the terms and conditions of these TOS. If you are a parent or guardian permitting a person under the age of 18 (“Minor”) to use the SERVICE, you agree to: (i) supervise the Minor’s use of the SERVICE; (ii) assume all risks associated with the Minor’s use of the SERVICE; (iii) assume any liability resulting from the Minor’s use of the SERVICE; (iv) ensure the accuracy and truthfulness of all information submitted by the Minor; and (v) assume responsibility and be bound by this Agreement for the Minor’s access and use of the SERVICE.</string>
+    <string name="shealth_monitory_tnc_desc_3_0">This SERVICE includes software and data provided by third parties. You acknowledge that the SERVICE is proprietary to Samsung and its licensors and protected under applicable copyright and other intellectual property laws and treaties. These TOS and your use of the SERVICE do not grant you any ownership interest in or to the SERVICE, and you are granted only a limited license to use that is revocable in accordance with the terms of these TOS. You may not use the SERVICE to reproduce copyrighted materials, or materials to which you do not have the right or legal approval for reproduction.</string>
+    <string name="shealth_monitory_tnc_desc_4_0">You may not (i) reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code or algorithms of the SERVICE; (ii) modify or disable any features of the SERVICE; (iii) create derivative works based on the SERVICE, except to the extent that your local law requires you to be able to do so; (iv) rent, lease, lend, sublicense, or provide commercial hosting services with the SERVICE; (v) infringe our intellectual property rights or those of any third party in relation to your use of the SERVICE (to the extent that such use is not licensed by this Agreement); (vi) use the SERVICE in any unlawful manner, for any unlawful purpose, or in any commercial manner, for any commercial purpose, or in any manner inconsistent with these TOS, or act fraudulently or maliciously, for example, by hacking into or inserting malicious code, including viruses, or harmful data, into the SERVICE or any operating system; (vii) use the SERVICE in a way that could damage, disable, overburden, impair, or compromise our systems or security or interfere with other users; and (viii) collect or harvest any information or data from the SERVICE or our systems or attempt to decipher any transmissions to or from the servers running the SERVICE.</string>
+    <string name="shealth_monitory_tnc_desc_4_1">Representations</string>
+    <string name="shealth_monitory_tnc_desc_4_10">If these representations are false in any way, you will be responsible for any damages or losses that Samsung suffers as a result. In addition, if you discover that any Content violates these representations or that it is otherwise inappropriate, or Samsung requests that you do so, you will immediately remove any Content that you have posted from the SERVICE.</string>
+    <string name="shealth_monitory_tnc_desc_4_2">By submitting or posting any audio, visual, images, comments, profiles, or other written or graphic materials (“Content”) to the SERVICE, you make the legally binding representations set forth below about yourself, how the Content was created, what it contains and certain other information, and you understand and intend that Samsung rely on these representations:</string>
+    <string name="shealth_monitory_tnc_desc_4_3">If you are the creator of the Content, the Content is your original work and you own it. If created by or with others, you have, or else you have obtained the consent, authorization, and all of the legal rights from all of the creators or persons or entities who have rights in the Content which are necessary for you to submit it to Samsung and for Samsung to distribute and exercise the other rights in this TOS respecting the Content.</string>
+    <string name="shealth_monitory_tnc_desc_4_4">You hereby grant Samsung the right to use, copy, modify, reproduce, or distribute any and all of your Content. You also acknowledge and agree that Samsung may modify, delete, or hide your Content without notice.</string>
+    <string name="shealth_monitory_tnc_desc_4_5">Listing, marketing, delivery, installation, uploading and use of your Content on the SERVICE does not violate any agreements to which you are a party or of which you are otherwise aware. If your Content includes any open source software, your Content complies with any corresponding license obligations for such open source software, and will not cause any software or technology used or comprising the SERVICE to be disclosed or otherwise become part of the public domain.</string>
+    <string name="shealth_monitory_tnc_desc_4_6">The Content is not:</string>
+    <string name="shealth_monitory_tnc_desc_4_7">"◦ libelous or defamatory;
+◦ obscene, pornographic, sexually explicit, or vulgar, and does not depict nudity or any sexual acts;
+◦ predatory, hateful, or intended to intimidate or harass any person, or does not contain derogatory name-calling
+◦ in poor taste or is otherwise objectionable, and"</string>
+    <string name="shealth_monitory_tnc_desc_4_8">The Content does not:</string>
+    <string name="shealth_monitory_tnc_desc_4_9">"◦ infringe upon or violate the copyrights, trademarks, or other intellectual property rights of any person or entity.
+◦ violate any person’s right to privacy, publicity, or personality;
+◦ violate any local, state, federal, national, or international law, including any US or foreign export control laws, or the applicable laws of each jurisdiction to which You are submitting the Content for distribution
+◦ contain any viruses, hidden matter, or other malicious elements (including, for example, any “trap doors,” “worms,” “Trojans,” or “time bombs”) or other unauthorized or hidden programs
+◦ collect any user information for which You have not obtained the user’s consent
+◦ contain or advocate illegal or violent acts
+◦ degrade any person on the basis of gender, race, class, ethnicity, national origin, religion, sexual orientation, disability, or other classification
+◦ contain any prohibited content (as identified in the Documentation, which is defined below)
+◦ contain advertising
+◦ contain a solicitation of any kind
+◦ misrepresent Your identity or affiliation; and
+◦ impersonate others."</string>
+    <string name="shealth_monitory_tnc_desc_5_0">Samsung may, at any time, provide or make available updates or upgrades to the SERVICE (“Updates”), including, without limitation, changing the name of the SERVICE, bug fixes, service enhancements, new features, deletion of existing functions, or modification of the SERVICE. Updates will be governed by these TOS unless separate terms and conditions are provided with such Updates, in which case those separate terms and conditions shall govern the Updates. Updates for security software, critical bug fixes, or other important Updates may be automatically downloaded and installed, given the importance of receiving such Updates in a timely manner.</string>
+    <string name="shealth_monitory_tnc_desc_5_1">Samsung expressly reserves the right to change, suspend, remove, limit the use of, or disable the access to the SERVICE or any portion thereof at any time without notice or liability. It is essential that you back up your data on your device before using the services to avoid losing any data.</string>
+    <string name="shealth_monitory_tnc_desc_6_0">Third-party services and/or content may also be available to you through the SERVICE. To the extent permitted by law, Samsung disclaims any warranty, condition, or representation in respect of any third-party services or content in any aspects including, but not limited to, quality, accuracy, effectiveness, lack of viruses, non-infringement of third-party rights, and compliance with any applicable laws or regulations. The use of third-party services and content may be governed by the terms of use of the third-party providers, or any license agreements, privacy policies, or other such agreements. Certain portions of the SERVICE may be subject to open source licenses, in which case the terms of such open source licenses may precede the terms of these TOS with respect to that portion of the SERVICE.</string>
+    <string name="shealth_monitory_tnc_desc_7_0">You acknowledge and agree that Samsung and/or parties that are entrusted by Samsung may collect and use information necessary to provide the SERVICE and Updates, and improve or enhance the SERVICE. At all times your information will be treated in accordance with Samsung’s Privacy Policy, which can be viewed at: https://account.samsung.com/membership/pp. Also, you can view the Samsung Health Monitor Privacy Notice to learn more about the information collected through Samsung Health Monitor at: http://shealth.samsung.com/policy.</string>
+    <string name="shealth_monitory_tnc_desc_8_0">Some features of the SERVICE may require your mobile device to have access to the internet and may be subject to restrictions imposed by your network or internet provider. The SERVICE may require access through your mobile network, which may result in additional charges depending on your payment plan. In addition, your enjoyment of some features of the SERVICE may be affected by the suitability and performance of your device hardware or data access.</string>
+    <string name="shealth_monitory_tnc_desc_9_0">You acknowledge and agree to comply with any and all applicable laws and regulations in using the SERVICE including, without limitation, all applicable export restriction laws and regulations.</string>
+    <string name="shealth_monitory_tnc_title_0">SAMSUNG HEALTH MONITOR TERMS OF SERVICE</string>
+    <string name="shealth_monitory_tnc_title_1">[SAMSUNG HEALTH MONITOR IMPORTANT NOTICES]</string>
+    <string name="shealth_monitory_tnc_title_10">9. Termination</string>
+    <string name="shealth_monitory_tnc_title_11">10. Disclaimer of Warranty</string>
+    <string name="shealth_monitory_tnc_title_12">11. Limitation of Liability</string>
+    <string name="shealth_monitory_tnc_title_13">12. INDEMNIFICATION</string>
+    <string name="shealth_monitory_tnc_title_14">13. Applicable Law</string>
+    <string name="shealth_monitory_tnc_title_15">14. Dispute Resolution</string>
+    <string name="shealth_monitory_tnc_title_16">15. Entire Agreement</string>
+    <string name="shealth_monitory_tnc_title_17" />
+    <string name="shealth_monitory_tnc_title_2">1. Grant of License</string>
+    <string name="shealth_monitory_tnc_title_3">2. Reservation of Rights and Ownership</string>
+    <string name="shealth_monitory_tnc_title_4">3. Restrictions</string>
+    <string name="shealth_monitory_tnc_title_5">4. Update, Change, or Suspension of the SERVICE</string>
+    <string name="shealth_monitory_tnc_title_6">5. Third-Party Services and Content</string>
+    <string name="shealth_monitory_tnc_title_7">6. Consent for Collection and Use of Data</string>
+    <string name="shealth_monitory_tnc_title_8">7. Data Access</string>
+    <string name="shealth_monitory_tnc_title_9">8. Compliance with Law</string>
+    <string name="shealthmonitor_app_name">Samsung Health Monitor</string>
+    <string name="shelath_monitor_bp_expired_noti_title">Blood Pressure</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="tracker_sensor_common_discard_abbr">discard</string>
+</resources>

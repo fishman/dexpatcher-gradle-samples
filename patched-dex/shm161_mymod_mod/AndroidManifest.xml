@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.samsung.android.shealthmonitor" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.samsung.accessory.permission.ACCESSORY_FRAMEWORK"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.sec.spp.permission.TOKEN_225d67be7e3a528b26baabd39aa2bdf77e55c6a99a9009c8fe954e0c051f37fa183387ca20edcfcbe8c037218a1f288ca888c1795636d8f661ac06c92b7d19c214dc3ed8803ea68927834410586abb883530a63983de90a3f696af7d82734bea567f4eeec5aa7f6a944eeaa9c1ca7cf63ec4de00ca4270a9308afee4a18fa61b"/>
+    <application android:allowBackup="false" android:allowTaskReparenting="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@drawable/group_2" android:label="@string/app_name" android:largeHeap="true" android:name="com.samsung.android.shealthmonitor.SHealthMonitorApplication" android:roundIcon="@drawable/group_2" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <meta-data android:name="com.samsung.android.health.permission.write" android:value="com.samsung.health.blood_pressure;com.samsung.health.electrocardiogram"/>
+        <meta-data android:name="com.samsung.android.health.permission.read" android:value="com.samsung.health.user_profile"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:label="@string/shealthmonitor_app_name" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorMainActivity" android:screenOrientation="portrait" android:theme="@style/ProMainAppCompat"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorSetupActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatTransparentStatusActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorProfileEditActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1" android:windowSoftInputMode="stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorTermsAndConditionActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="term_of_use"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorPrivacyPolicyActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="privacy_policy"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorAccessoriesActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorNotificationActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorDataPermissionActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorAboutActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorManufacturerActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorOpenSourceLicensesActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayTheme1"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorBpCalibrateFirstPrerequisiteActivity" android:parentActivityName="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorMainActivity" android:screenOrientation="portrait" android:theme="@style/AppCompatGrayFullScreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorBpInputActivity" android:screenOrientation="portrait" android:theme="@style/CalibrationInputCompatTheme" android:windowSoftInputMode="adjustNothing|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorStepStartActivity" android:screenOrientation="portrait" android:theme="@style/CalibrationStepCompatTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorMeasurementActivity" android:screenOrientation="portrait" android:theme="@style/CalibrationMeasureTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorHistoryActivity" android:screenOrientation="portrait" android:theme="@style/SHealthMonitorThemeLightNoDividerGrayUp"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorBpHistoryRecalibrate" android:parentActivityName="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorMainActivity" android:screenOrientation="portrait" android:theme="@style/SHealthMonitorThemeLightNoDividerGrayUp"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorHistoryItemActivity" android:screenOrientation="portrait" android:theme="@style/SHealthMonitorThemeLightNoDividerGrayUp"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorHistoryItemInfoActivity" android:screenOrientation="portrait" android:theme="@style/SHealthMonitorThemeLightNoDividerGrayUp"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorBpHowToUseActivity" android:screenOrientation="portrait" android:theme="@style/SHealthMonitorHowToUseCompatThemeLight"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorBpHowToUseDetailActivity" android:parentActivityName="com.samsung.android.shealthmonitor.home.ui.activity.SHealthMonitorMainActivity" android:screenOrientation="portrait" android:theme="@style/SHealthMonitorHowToUseCompatThemeLight"/>
+        <activity android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorDeeplinkActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.samsung.android.shealthmonitor.bp.ui.activity.SHealthMonitorBpPropositionActivity" android:screenOrientation="portrait" android:theme="@style/ProBpPropositionTheme"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.samsung.android.shealthmonitor.bp.receiver.BpBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.mobile.app.health.samd.bp.measuring"/>
+                <action android:name="com.samsung.mobile.app.health.samd.bp.common"/>
+                <action android:name="com.samsung.android.shealthmonitor.common.tnc_sync"/>
+                <action android:name="com.samsung.android.shealthmonitor.common.check_wearable_setup"/>
+                <action android:name="com.samsung.android.shealthmonitor.wearable.DATA_UPDATED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.samsung.android.shealthmonitor.bp.control.BpJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.samsung.android.sdk.accessory.SAService"/>
+        <service android:name="com.samsung.android.sdk.accessory.SAJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.samsung.android.sdk.accessory.RegisterUponInstallReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.accessory.action.REGISTER_AGENT"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="AccessoryServicesLocation" android:value="/res/xml/accessoryservices.xml"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/shealthmonitor_app_name" android:name="com.samsung.android.shealthmonitor.ui.activity.MainActivity" android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="shealthmonitor.samsung.com" android:pathPrefix="/deepLink" android:scheme="http"/>
+                <data android:host="shealthmonitor.samsung.com" android:pathPrefix="/deepLink" android:scheme="https"/>
+                <data android:host="shealthmonitor.samsung.com" android:pathPrefix="/deepLink" android:scheme="shealthmonitor"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.samsung.android.shealthmonitor.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.samsung.android.shealthmonitor.util.ShareViaUtils$FileProvider"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.samsung.android.shealthmonitor.receiver.DateTimeChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

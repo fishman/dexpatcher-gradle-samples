@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mContentView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mAdditionalContentView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mContentView" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/under_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.799988px" android:layout_marginBottom="36.0px" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin">
+        <ImageView android:layout_width="10.0px" android:layout_height="10.0px" android:src="@drawable/icon_caution_red" />
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bp_pdf_under_caution_text" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" android:layout_marginStart="5.6999817px" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="57.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="57.0dip">
+        <com.samsung.android.shealthmonitor.widget.HTextButton android:textSize="17.0dip" android:textColor="#ff5280f2" android:layout_gravity="center" android:id="@id/hTextButtonLeft" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_tracker_previous" android:layout_marginStart="19.0dip" app:allowDefaultButtonShape="true" app:button_type="previous_next" style="@style/roboto_medium" />
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/mSwipeDot0" android:background="@drawable/common_swipe_dot_enabled" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+            <ImageView android:id="@id/mSwipeDot1" android:background="@drawable/common_swipe_dot_disabled" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+            <ImageView android:id="@id/mSwipeDot2" android:background="@drawable/common_swipe_dot_disabled" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+        </LinearLayout>
+        <com.samsung.android.shealthmonitor.widget.HTextButton android:textSize="17.0dip" android:textColor="#ff5280f2" android:layout_gravity="center" android:id="@id/hTextButtonRight" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_tracker_next" android:layout_marginEnd="19.0dip" android:layout_alignParentEnd="true" app:allowDefaultButtonShape="true" app:button_type="previous_next" style="@style/roboto_medium" />
+    </RelativeLayout>
+</LinearLayout>

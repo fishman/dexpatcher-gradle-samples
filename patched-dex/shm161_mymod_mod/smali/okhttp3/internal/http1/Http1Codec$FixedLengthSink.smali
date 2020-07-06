@@ -1,0 +1,234 @@
+.class final Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;
+.super Ljava/lang/Object;
+.source "Http1Codec.java"
+
+# interfaces
+.implements Lokio/Sink;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lokhttp3/internal/http1/Http1Codec;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x12
+    name = "FixedLengthSink"
+.end annotation
+
+
+# instance fields
+.field private bytesRemaining:J
+
+.field private closed:Z
+
+.field final synthetic this$0:Lokhttp3/internal/http1/Http1Codec;
+
+.field private final timeout:Lokio/ForwardingTimeout;
+
+
+# direct methods
+.method constructor <init>(Lokhttp3/internal/http1/Http1Codec;J)V
+    .locals 1
+
+    .line 280
+    iput-object p1, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->this$0:Lokhttp3/internal/http1/Http1Codec;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 276
+    new-instance p1, Lokio/ForwardingTimeout;
+
+    iget-object v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->this$0:Lokhttp3/internal/http1/Http1Codec;
+
+    iget-object v0, v0, Lokhttp3/internal/http1/Http1Codec;->sink:Lokio/BufferedSink;
+
+    invoke-interface {v0}, Lokio/BufferedSink;->timeout()Lokio/Timeout;
+
+    move-result-object v0
+
+    invoke-direct {p1, v0}, Lokio/ForwardingTimeout;-><init>(Lokio/Timeout;)V
+
+    iput-object p1, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->timeout:Lokio/ForwardingTimeout;
+
+    .line 281
+    iput-wide p2, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->bytesRemaining:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final close()V
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 305
+    iget-boolean v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->closed:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x1
+
+    .line 306
+    iput-boolean v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->closed:Z
+
+    .line 307
+    iget-wide v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->bytesRemaining:J
+
+    const-wide/16 v2, 0x0
+
+    cmp-long v0, v0, v2
+
+    if-lez v0, :cond_1
+
+    new-instance p0, Ljava/net/ProtocolException;
+
+    const-string v0, "unexpected end of stream"
+
+    invoke-direct {p0, v0}, Ljava/net/ProtocolException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    .line 308
+    :cond_1
+    iget-object v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->timeout:Lokio/ForwardingTimeout;
+
+    invoke-static {v0}, Lokhttp3/internal/http1/Http1Codec;->detachTimeout(Lokio/ForwardingTimeout;)V
+
+    .line 309
+    iget-object p0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->this$0:Lokhttp3/internal/http1/Http1Codec;
+
+    const/4 v0, 0x3
+
+    iput v0, p0, Lokhttp3/internal/http1/Http1Codec;->state:I
+
+    return-void
+.end method
+
+.method public final flush()V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 300
+    iget-boolean v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->closed:Z
+
+    if-eqz v0, :cond_0
+
+    return-void
+
+    .line 301
+    :cond_0
+    iget-object p0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->this$0:Lokhttp3/internal/http1/Http1Codec;
+
+    iget-object p0, p0, Lokhttp3/internal/http1/Http1Codec;->sink:Lokio/BufferedSink;
+
+    invoke-interface {p0}, Lokio/BufferedSink;->flush()V
+
+    return-void
+.end method
+
+.method public final timeout()Lokio/Timeout;
+    .locals 0
+
+    .line 285
+    iget-object p0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->timeout:Lokio/ForwardingTimeout;
+
+    return-object p0
+.end method
+
+.method public final write(Lokio/Buffer;J)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 289
+    iget-boolean v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->closed:Z
+
+    if-eqz v0, :cond_0
+
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "closed"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    .line 290
+    :cond_0
+    invoke-virtual {p1}, Lokio/Buffer;->size()J
+
+    move-result-wide v0
+
+    const-wide/16 v2, 0x0
+
+    move-wide v4, p2
+
+    invoke-static/range {v0 .. v5}, Lokhttp3/internal/Util;->checkOffsetAndCount(JJJ)V
+
+    .line 291
+    iget-wide v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->bytesRemaining:J
+
+    cmp-long v0, p2, v0
+
+    if-lez v0, :cond_1
+
+    .line 292
+    new-instance p1, Ljava/net/ProtocolException;
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "expected "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-wide v1, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->bytesRemaining:J
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string p0, " bytes but received "
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p2, p3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/net/ProtocolException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 295
+    :cond_1
+    iget-object v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->this$0:Lokhttp3/internal/http1/Http1Codec;
+
+    iget-object v0, v0, Lokhttp3/internal/http1/Http1Codec;->sink:Lokio/BufferedSink;
+
+    invoke-interface {v0, p1, p2, p3}, Lokio/BufferedSink;->write(Lokio/Buffer;J)V
+
+    .line 296
+    iget-wide v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->bytesRemaining:J
+
+    sub-long/2addr v0, p2
+
+    iput-wide v0, p0, Lokhttp3/internal/http1/Http1Codec$FixedLengthSink;->bytesRemaining:J
+
+    return-void
+.end method

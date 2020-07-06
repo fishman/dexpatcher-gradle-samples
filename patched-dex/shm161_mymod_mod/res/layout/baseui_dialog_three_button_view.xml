@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cancel_ok_buttons_layout" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.shealthmonitor.widget.HTextButton android:id="@id/negative_button" android:text="@string/baseui_button_cancel" app:allowDefaultButtonShape="true" app:applyUpToLarge="true" app:button_type="dialog_action_button" style="@style/baseui_dialog_3_button_style" />
+    <View style="@style/baseui_button_divider" />
+    <com.samsung.android.shealthmonitor.widget.HTextButton android:id="@id/neutral_button" android:text="@string/baseui_button_retry" app:allowDefaultButtonShape="true" app:applyUpToLarge="true" app:button_type="dialog_action_button" style="@style/baseui_dialog_3_button_style" />
+    <View style="@style/baseui_button_divider" />
+    <com.samsung.android.shealthmonitor.widget.HTextButton android:id="@id/positive_button" android:text="@string/baseui_button_ok" app:allowDefaultButtonShape="true" app:applyUpToLarge="true" app:button_type="dialog_action_button" style="@style/baseui_dialog_3_button_style" />
+</LinearLayout>

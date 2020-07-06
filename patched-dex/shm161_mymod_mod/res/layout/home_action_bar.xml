@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0dip" android:ellipsize="end" android:id="@id/shealth_monitor_home_actionbar_title" android:background="@color/baseui_transparent_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:maxLines="1" android:textAllCaps="false" style="@style/roboto_condensed_bold" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/shealth_monitor_bp_card_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/proto_type_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:isScrollContainer="false" />
+                <TextView android:textSize="22.0dip" android:textColor="@android:color/black" android:id="@id/proto_type_view_name" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bp_pdf_title" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/roboto_bold" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

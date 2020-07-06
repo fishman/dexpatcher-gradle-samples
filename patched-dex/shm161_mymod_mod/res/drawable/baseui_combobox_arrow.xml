@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="center" android:src="@drawable/abc_spinner_mtrl_am_alpha" android:tint="#ff252525" android:height="6.0dip" android:width="8.0dip" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

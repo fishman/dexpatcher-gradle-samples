@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mCardLayout" android:background="@drawable/home_card_background" android:layout_width="fill_parent" android:layout_height="191.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="24.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="14.0dip">
+            <ImageView android:id="@id/mIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/calibration_reminder_icon" android:layout_marginEnd="12.0dip" />
+            <TextView android:textSize="24.0dip" android:textColor="#fffafafa" android:layout_gravity="center_vertical" android:id="@id/mTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="11.0dip" android:fontFamily="@font/samsungone_600_normal" />
+        </LinearLayout>
+        <TextView android:textSize="14.0dip" android:textColor="#ffefefef" android:id="@id/mDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_400_normal" android:layout_marginStart="14.0dip" />
+        <com.samsung.android.shealthmonitor.widget.HTextButton android:textSize="17.0dip" android:textColor="#ff5280f2" android:gravity="center_horizontal" android:id="@id/mLearnMoreButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_700_normal" app:allowDefaultButtonShape="true" app:applyUpToLarge="true" app:button_type="button_flat_text_only" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/baseui_actionbar_shadow_height">
+        <nine-patch android:src="@drawable/tw_action_bar_divider_mtrl" android:tint="@color/baseui_black_7" />
+    </item>
+</layer-list>

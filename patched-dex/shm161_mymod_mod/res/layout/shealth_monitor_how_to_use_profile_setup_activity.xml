@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/how_to_use_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:fillViewport="true" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@drawable/how_to_use_item_bg" android:paddingTop="20.0dip" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/how_to_use_profile_1" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                    <ImageView android:id="@id/step_1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/step_1" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:id="@id/step_1_1_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_1_1" android:layout_alignParentTop="true" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/step_1" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/step_1_1_link_layout" android:background="@drawable/common_rectangle_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/step_1_1_text" android:layout_alignStart="@id/step_1_1_text">
+                        <TextView android:textSize="15.0dip" android:textColor="@color/baseui_control_activated_color" android:id="@id/step_1_1_link_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_1_1_link" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_700_normal" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/step_1_1_link_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_weblink" android:layout_marginStart="6.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                    <ImageView android:id="@id/step_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/step_2" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_1_2" android:layout_alignParentTop="true" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/step_2" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/step_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/step_3" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_1_3" android:layout_alignParentTop="true" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/step_3" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+                <TextView android:textSize="17.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/how_to_use_profile_2" android:lineSpacingExtra="8.0dip" android:fontFamily="@font/samsungone_500_normal" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+                    <ImageView android:id="@id/step_2_1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/step_1" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_2_1" android:layout_alignParentTop="true" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/step_2_1" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+                    <ImageView android:id="@id/step_2_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/step_2" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_2_2" android:layout_alignParentTop="true" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/step_2_2" />
+                </RelativeLayout>
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="312.0dip" android:layout_height="168.0dip" android:layout_marginBottom="24.0dip" android:src="@mipmap/how_to_use_image_profile_setup" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/step_2_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/step_3" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/baseui_black_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/how_to_use_profile_2_3" android:layout_alignParentTop="true" android:lineSpacingExtra="9.0dip" android:fontFamily="@font/samsungone_500_normal" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/step_2_3" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

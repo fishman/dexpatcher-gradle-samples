@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="@color/baseui_black_text" android:gravity="center" android:id="@id/mDateOfUse" android:background="#ffffffff" android:padding="2.0px" android:visibility="gone" android:layout_width="149.0px" android:layout_height="fill_parent" android:layout_marginRight="@dimen/pdf_row_border" android:layout_marginBottom="@dimen/pdf_row_border" android:fontFamily="sans-serif" android:textAlignment="center" />
+    <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="@color/baseui_black_text" android:gravity="center" android:id="@id/mDeviceName" android:background="#ffffffff" android:padding="2.0px" android:layout_width="299.0px" android:layout_height="fill_parent" android:layout_marginRight="@dimen/pdf_row_border" android:layout_marginBottom="@dimen/pdf_row_border" android:fontFamily="sans-serif" android:textAlignment="center" />
+    <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="@color/baseui_black_text" android:gravity="center" android:id="@id/mLastCalibrationDate" android:background="#ffffffff" android:padding="2.0px" android:layout_width="216.0px" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/pdf_row_border" android:fontFamily="sans-serif" android:textAlignment="center" />
+</merge>

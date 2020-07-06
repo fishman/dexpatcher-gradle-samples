@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0px" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin">
+        <ImageView android:layout_width="12.0px" android:layout_height="12.0px" android:src="@drawable/ic_heart_pdf" />
+        <TextView android:textSize="14.0px" android:textStyle="normal" android:textColor="@color/bp_pdf_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bp_pdf_title" android:lineSpacingExtra="14.0px" android:fontFamily="sans-serif-medium" android:layout_marginStart="6.0px" />
+    </LinearLayout>
+    <TextView android:textSize="11.0px" android:textStyle="normal" android:textColor="@color/bp_pdf_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0px" android:text="@string/bp_pdf_title_profile" android:lineSpacingExtra="7.0px" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin">
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bp_pdf_profile_name" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:id="@id/mName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="John Doe" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin">
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bp_pdf_profile_birthday" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:id="@id/mBirthDay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="27/May/1970" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin">
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bp_pdf_profile_gender" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:id="@id/mGender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Male" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <TextView android:textSize="11.0px" android:textStyle="normal" android:textColor="@color/bp_pdf_title_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0px" android:text="@string/bp_pdf_title_data" android:lineSpacingExtra="7.0px" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pdf_start_margin" android:layout_marginEnd="@dimen/pdf_end_margin">
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bp_pdf_data_date" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+        <TextView android:textSize="10.0px" android:textStyle="normal" android:textColor="#ff252525" android:id="@id/mPeriodDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nov 9 ~ 15" android:lineSpacingExtra="6.0px" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <include layout="@layout/shealth_monitor_bp_pdf_data_table_view" />
+</LinearLayout>
