@@ -13,11 +13,19 @@ import com.samsung.android.shealthmonitor.wearable.wearablemessage.WearableMessa
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 public class WearableEcgManager {
-    private static final String TAG = "S HealthMonitor - WearableEcgManager";
-    private static WearableEcgManager mInstance;
-    private BroadcastReceiver mBrReceiver = new BroadcastReceiver() {
-        public void onReceive(Context context, Intent intent) {
+  private static final String TAG = "S HealthMonitor - WearableEcgManager";
+  private static WearableEcgManager mInstance;
+  private static final String RECEIVER_ECG_COMMON = "com.samsung.wearable.app.health.samd.ecg.common";
+  private static final String RECEIVER_ECG_MEASURING = "com.samsung.wearable.app.health.samd.ecg.measuring";
+  private static final String RECEIVER_ECG_SYNCMANAGER = "com.samsung.wearable.app.health.samd.ecg.syncmanager";
+  private static final String SENDER_ECG_COMMON = "com.samsung.mobile.app.health.samd.ecg.common";
+  private static final String SENDER_ECG_MEASURING = "com.samsung.mobile.app.health.samd.ecg.measuring";
+  private static final String SENDER_ECG_SYNCMANAGER = "com.samsung.mobile.app.health.samd.ecg.syncmanager";
+
+  private BroadcastReceiver mBrReceiver = new BroadcastReceiver() {
+    public void onReceive(Context context, Intent intent) {
             String stringExtra = intent.getStringExtra(WearableMessageData.Key.MESSAGE);
             LOG.d(WearableEcgManager.TAG, " [onReceive] Got message: " + stringExtra);
         }
@@ -31,13 +39,13 @@ public class WearableEcgManager {
             r5 = move-exception;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:18:?, code lost:
-            com.samsung.android.shealthmonitor.util.LOG.e(com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.TAG, " [] Exception : " + com.samsung.android.shealthmonitor.util.LOG.getStackTraceString(r5));
+            com.samsung.android.shealthmonitor.util.LOG.e(com.samsung.android.shealthmonitor.ecg.manager.WearableBpManager.TAG, " [] Exception : " + com.samsung.android.shealthmonitor.util.LOG.getStackTraceString(r5));
          */
         /* JADX WARNING: Code restructure failed: missing block: B:21:0x00b3, code lost:
             r5 = move-exception;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:40:0x0114, code lost:
-            if (com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.access$100(r4.this$0) == null) goto L_0x0116;
+            if (com.samsung.android.shealthmonitor.ecg.manager.WearableBpManager.access$100(r4.this$0) == null) goto L_0x0116;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:41:0x0116, code lost:
             com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.access$102(r4.this$0, new org.json.JSONObject());
@@ -322,7 +330,7 @@ public class WearableEcgManager {
     }
 
     private boolean doRequestMessage(String str) {
-        return doRequestMessage(str, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING);
+        return doRequestMessage(str, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING);
     }
 
     private boolean doRequestMessage(String str, String str2, String str3) {
@@ -335,7 +343,7 @@ public class WearableEcgManager {
     }
 
     public int sendTermsAndConditionRequest(WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("terms_and_condition", true).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("terms_and_condition", true).toString(), resultListener);
     }
 
     public boolean sendTermsAndConditionRequestSync() {
@@ -343,7 +351,7 @@ public class WearableEcgManager {
     }
 
     public int sendInitiateCalibrationRequest(WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("initiate_calibration", true).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("initiate_calibration", true).toString(), resultListener);
     }
 
     public boolean sendInitiateCalibrationRequestSync() {
@@ -351,7 +359,7 @@ public class WearableEcgManager {
     }
 
     public int sendPreCalibrationRequest(WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("prepare_calibration", false).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("prepare_calibration", false).toString(), resultListener);
     }
 
     public boolean sendPreCalibrationRequestSync() {
@@ -365,7 +373,7 @@ public class WearableEcgManager {
         } else {
             jSONObject = makeRequest("initial_calibration", true);
         }
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, jSONObject.toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, jSONObject.toString(), resultListener);
     }
 
     public boolean sendInitialCalibrationRequestSync() {
@@ -379,7 +387,7 @@ public class WearableEcgManager {
     }
 
     public int readyEcgCalibration(WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("ready_calibration", false).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("ready_calibration", false).toString(), resultListener);
     }
 
     public boolean readyEcgCalibrationSync() {
@@ -387,7 +395,7 @@ public class WearableEcgManager {
     }
 
     public int startEcgCalibration(WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("start_calibration", false).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("start_calibration", false).toString(), resultListener);
     }
 
     public boolean startEcgCalibrationSync() {
@@ -395,7 +403,7 @@ public class WearableEcgManager {
     }
 
     public int updateEcgCalibration(int i, int i2, int i3, WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("update_calibration", i, i2, i3).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("update_calibration", i, i2, i3).toString(), resultListener);
     }
 
     public boolean updateEcgCalibrationSync(int i, int i2, int i3) {
@@ -403,16 +411,16 @@ public class WearableEcgManager {
     }
 
     public int startEstimation(WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("start_estimation", false).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("start_estimation", false).toString(), resultListener);
     }
 
     public JSONObject startEstimationSync() {
-        WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequest("start_estimation", false).toString(), this.mResultListener);
+        WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("start_estimation", false).toString(), this.mResultListener);
         return waitLock();
     }
 
     public int cancelCalibration(String str, WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_MEASURING, WearableMessageData.SenderReceiverValue.RECEIVER_BP_MEASURING, makeRequestBody("cancel_calibration", new Pair[]{Pair.create("next_action", str)}).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequestBody("cancel_calibration", new Pair[]{Pair.create("next_action", str)}).toString(), resultListener);
     }
 
     public boolean cancelCalibrationSync() {
@@ -420,11 +428,11 @@ public class WearableEcgManager {
     }
 
     public int sendEcgForceUpdateRequest(String str, WearableMessageManager.ResultListener resultListener) {
-        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, WearableMessageData.SenderReceiverValue.SENDER_BP_COMMON, WearableMessageData.SenderReceiverValue.RECEIVER_BP_COMMON, makeRequest("force_update", str).toString(), resultListener);
+        return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_COMMON, RECEIVER_ECG_COMMON, makeRequest("force_update", str).toString(), resultListener);
     }
 
     public boolean sendMakeDemoRequestSync() {
-        return doRequestMessage(makeRequestBody("create_demo", new Pair[]{Pair.create("day", 27)}).toString(), WearableMessageData.SenderReceiverValue.SENDER_BP_COMMON, WearableMessageData.SenderReceiverValue.RECEIVER_BP_COMMON);
+        return doRequestMessage(makeRequestBody("create_demo", new Pair[]{Pair.create("day", 27)}).toString(), SENDER_ECG_COMMON, RECEIVER_ECG_COMMON);
     }
 
     public void setUuidForUpdateCalibration(String str) {
