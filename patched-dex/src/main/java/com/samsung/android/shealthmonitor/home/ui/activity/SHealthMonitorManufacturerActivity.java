@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.samsung.android.shealthmonitor.bp.manager.WearableBpManager;
 import com.samsung.android.shealthmonitor.ecg.manager.WearableEcgManager;
 import com.samsung.android.shealthmonitor.home.BuildConfig;
 import com.samsung.android.shealthmonitor.home.R;
@@ -81,7 +82,7 @@ public final class SHealthMonitorManufacturerActivity extends BaseAppCompatActiv
     linearLayout.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
 
     button = new Button(this);
-    button.setText("Pair ECG");
+    button.setText("Make Demo Request");
     button.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View view) {
@@ -89,12 +90,66 @@ public final class SHealthMonitorManufacturerActivity extends BaseAppCompatActiv
         LOG.i(TAG, " Demo Request Sync");
       }
     });
+
+    Button demobpbutton = new Button(this);
+    demobpbutton.setText("BP Demo Request Sync");
+    demobpbutton.setOnClickListener(new View.OnClickListener() {
+    @Override
+      public void onClick(View view) {
+        WearableBpManager.getInstance().sendMakeDemoRequestSync();
+        LOG.i(TAG, " BP Demo Request Sync");
+      }
+    });
+
+    Button onboardingbutton = new Button(this);
+    onboardingbutton.setText("Onboarding");
+    onboardingbutton.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        WearableEcgManager.getInstance().sendOnboardingRequestSync();
+        LOG.i(TAG, " Onboarding");
+      }
+    });
+
+    Button terms_button = new Button(this);
+    terms_button.setText("terms button");
+    terms_button.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        WearableEcgManager.getInstance().sendTermsAndConditionRequestSync();
+        LOG.i(TAG, " Terms and Conditions");
+      }
+    });
+    Button initial_calibration = new Button(this);
+    initial_calibration.setText("precalibration");
+    initial_calibration.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        WearableBpManager.getInstance().sendPreCalibrationRequestSync();
+        LOG.i(TAG, " precalibration");
+      }
+    });
+    Button bp_terms = new Button(this);
+    bp_terms.setText("BP Terms");
+    bp_terms.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View view) {
+        WearableBpManager.getInstance().sendTermsAndConditionRequestSync();
+        LOG.i(TAG, " BP terms");
+      }
+    });
+
     TextView titleView = new TextView(this);
     ViewGroup.LayoutParams lparams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
     titleView.setLayoutParams(lparams);
-    titleView.setText("Hallo Welt!");
+    titleView.setText("ECG Commands");
     linearLayout.addView(titleView);
     linearLayout.addView(button);
+    linearLayout.addView(onboardingbutton);
+    linearLayout.addView(terms_button);
+    linearLayout.addView(initial_calibration);
+    linearLayout.addView(bp_terms);
+    linearLayout.addView(demobpbutton);
 
     setContentView(linearLayout);
   }

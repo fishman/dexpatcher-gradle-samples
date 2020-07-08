@@ -54,6 +54,12 @@
                 <action android:name="com.samsung.android.shealthmonitor.wearable.DATA_UPDATED"/>
             </intent-filter>
         </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.samsung.android.shealthmonitor.ecg.receiver.EcgBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.mobile.app.health.samd.ecg.measuring"/>
+                <action android:name="com.samsung.mobile.app.health.samd.ecg.common"/>
+            </intent-filter>
+        </receiver>
         <service android:exported="false" android:name="com.samsung.android.shealthmonitor.bp.control.BpJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <service android:name="com.samsung.android.sdk.accessory.SAService"/>
         <service android:name="com.samsung.android.sdk.accessory.SAJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>

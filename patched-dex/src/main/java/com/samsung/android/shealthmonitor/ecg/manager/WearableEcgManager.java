@@ -39,28 +39,28 @@ public class WearableEcgManager {
             r5 = move-exception;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:18:?, code lost:
-            com.samsung.android.shealthmonitor.util.LOG.e(com.samsung.android.shealthmonitor.ecg.manager.WearableBpManager.TAG, " [] Exception : " + com.samsung.android.shealthmonitor.util.LOG.getStackTraceString(r5));
+            com.samsung.android.shealthmonitor.util.LOG.e(com.samsung.android.shealthmonitor.ecg.manager.WearableEcgManager.TAG, " [] Exception : " + com.samsung.android.shealthmonitor.util.LOG.getStackTraceString(r5));
          */
         /* JADX WARNING: Code restructure failed: missing block: B:21:0x00b3, code lost:
             r5 = move-exception;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:40:0x0114, code lost:
-            if (com.samsung.android.shealthmonitor.ecg.manager.WearableBpManager.access$100(r4.this$0) == null) goto L_0x0116;
+            if (com.samsung.android.shealthmonitor.ecg.manager.WearableEcgManager.access$100(r4.this$0) == null) goto L_0x0116;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:41:0x0116, code lost:
-            com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.access$102(r4.this$0, new org.json.JSONObject());
+            com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.access$102(r4.this$0, new org.json.JSONObject());
          */
         /* JADX WARNING: Code restructure failed: missing block: B:43:?, code lost:
-            com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.access$100(r4.this$0).put("result", "error");
+            com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.access$100(r4.this$0).put("result", "error");
          */
         /* JADX WARNING: Code restructure failed: missing block: B:44:0x012e, code lost:
             r6 = move-exception;
          */
         /* JADX WARNING: Code restructure failed: missing block: B:47:?, code lost:
-            com.samsung.android.shealthmonitor.util.LOG.e(com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.TAG, " [] Exception : " + com.samsung.android.shealthmonitor.util.LOG.getStackTraceString(r6));
+            com.samsung.android.shealthmonitor.util.LOG.e(com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.TAG, " [] Exception : " + com.samsung.android.shealthmonitor.util.LOG.getStackTraceString(r6));
          */
         /* JADX WARNING: Code restructure failed: missing block: B:48:0x0146, code lost:
-            com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.access$000(r4.this$0).notifyAll();
+            com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.access$000(r4.this$0).notifyAll();
          */
         /* JADX WARNING: Code restructure failed: missing block: B:49:0x014f, code lost:
             throw r5;
@@ -68,15 +68,16 @@ public class WearableEcgManager {
         /* JADX WARNING: Exception block dominator not found, dom blocks: [B:13:0x0083, B:24:0x00b8] */
         /* Code decompiled incorrectly, please refer to instructions dump. */
         public void onResult(java.lang.String r5, int r6, java.lang.String r7) {
+          LOG.d(WearableEcgManager.TAG, " [onResult] Got message: " + r5 + r7);
             /*
                 r4 = this;
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r0 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r0 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this
                 java.lang.Object r0 = r0.mLock
                 monitor-enter(r0)
-                java.lang.String r1 = "S HealthMonitor - WearableBpManager"
+                java.lang.String r1 = "S HealthMonitor - WearableEcgManager"
                 java.lang.String r2 = " [resultListener] ok? "
                 com.samsung.android.shealthmonitor.util.LOG.i(r1, r2)     // Catch:{ all -> 0x0150 }
-                java.lang.String r1 = "S HealthMonitor - WearableBpManager"
+                java.lang.String r1 = "S HealthMonitor - WearableEcgManager"
                 java.lang.StringBuilder r2 = new java.lang.StringBuilder     // Catch:{ all -> 0x0150 }
                 java.lang.String r3 = "[WM] onResult : "
                 r2.<init>(r3)     // Catch:{ all -> 0x0150 }
@@ -89,11 +90,11 @@ public class WearableEcgManager {
                 r2.append(r7)     // Catch:{ all -> 0x0150 }
                 java.lang.String r5 = r2.toString()     // Catch:{ all -> 0x0150 }
                 com.samsung.android.shealthmonitor.util.LOG.i(r1, r5)     // Catch:{ all -> 0x0150 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ JSONException -> 0x00b5 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ JSONException -> 0x00b5 }
                 org.json.JSONObject r6 = new org.json.JSONObject     // Catch:{ JSONException -> 0x00b5 }
                 r6.<init>(r7)     // Catch:{ JSONException -> 0x00b5 }
                 org.json.JSONObject unused = r5.mLockResult = r6     // Catch:{ JSONException -> 0x00b5 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ JSONException -> 0x00b5 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ JSONException -> 0x00b5 }
                 org.json.JSONObject r5 = r5.mLockResult     // Catch:{ JSONException -> 0x00b5 }
                 java.lang.String r6 = "result"
                 java.lang.String r5 = r5.getString(r6)     // Catch:{ JSONException -> 0x00b5 }
@@ -104,7 +105,7 @@ public class WearableEcgManager {
                 java.lang.StringBuilder r6 = new java.lang.StringBuilder     // Catch:{ JSONException -> 0x00b5 }
                 java.lang.String r7 = "Result : "
                 r6.<init>(r7)     // Catch:{ JSONException -> 0x00b5 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r7 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ JSONException -> 0x00b5 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r7 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ JSONException -> 0x00b5 }
                 org.json.JSONObject r7 = r7.mLockResult     // Catch:{ JSONException -> 0x00b5 }
                 java.lang.String r1 = "result"
                 java.lang.String r7 = r7.getString(r1)     // Catch:{ JSONException -> 0x00b5 }
@@ -113,14 +114,14 @@ public class WearableEcgManager {
                 r7 = 0
                 com.samsung.android.shealthmonitor.util.Utils.showToast(r5, r6, r7, r7)     // Catch:{ JSONException -> 0x00b5 }
             L_0x0071:
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject r5 = r5.mLockResult     // Catch:{ all -> 0x0150 }
                 if (r5 != 0) goto L_0x00a9
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject r6 = new org.json.JSONObject     // Catch:{ all -> 0x0150 }
                 r6.<init>()     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject unused = r5.mLockResult = r6     // Catch:{ all -> 0x0150 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ JSONException -> 0x0091 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ JSONException -> 0x0091 }
                 org.json.JSONObject r5 = r5.mLockResult     // Catch:{ JSONException -> 0x0091 }
                 java.lang.String r6 = "result"
                 java.lang.String r7 = "error"
@@ -128,7 +129,7 @@ public class WearableEcgManager {
                 goto L_0x00a9
             L_0x0091:
                 r5 = move-exception
-                java.lang.String r6 = "S HealthMonitor - WearableBpManager"
+                java.lang.String r6 = "S HealthMonitor - WearableEcgManager"
                 java.lang.StringBuilder r7 = new java.lang.StringBuilder     // Catch:{ all -> 0x0150 }
                 java.lang.String r1 = " [] Exception : "
                 r7.<init>(r1)     // Catch:{ all -> 0x0150 }
@@ -137,7 +138,7 @@ public class WearableEcgManager {
                 java.lang.String r5 = r7.toString()     // Catch:{ all -> 0x0150 }
                 com.samsung.android.shealthmonitor.util.LOG.e(r6, r5)     // Catch:{ all -> 0x0150 }
             L_0x00a9:
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r4 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r4 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 java.lang.Object r4 = r4.mLock     // Catch:{ all -> 0x0150 }
             L_0x00af:
                 r4.notifyAll()     // Catch:{ all -> 0x0150 }
@@ -147,7 +148,7 @@ public class WearableEcgManager {
                 goto L_0x010e
             L_0x00b5:
                 r5 = move-exception
-                java.lang.String r6 = "S HealthMonitor - WearableBpManager"
+                java.lang.String r6 = "S HealthMonitor - WearableEcgManager"
                 java.lang.StringBuilder r7 = new java.lang.StringBuilder     // Catch:{ all -> 0x00b3 }
                 java.lang.String r1 = " [mResultListener] Exception : "
                 r7.<init>(r1)     // Catch:{ all -> 0x00b3 }
@@ -155,14 +156,14 @@ public class WearableEcgManager {
                 r7.append(r5)     // Catch:{ all -> 0x00b3 }
                 java.lang.String r5 = r7.toString()     // Catch:{ all -> 0x00b3 }
                 com.samsung.android.shealthmonitor.util.LOG.e(r6, r5)     // Catch:{ all -> 0x00b3 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject r5 = r5.mLockResult     // Catch:{ all -> 0x0150 }
                 if (r5 != 0) goto L_0x0105
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject r6 = new org.json.JSONObject     // Catch:{ all -> 0x0150 }
                 r6.<init>()     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject unused = r5.mLockResult = r6     // Catch:{ all -> 0x0150 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ JSONException -> 0x00ed }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r5 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ JSONException -> 0x00ed }
                 org.json.JSONObject r5 = r5.mLockResult     // Catch:{ JSONException -> 0x00ed }
                 java.lang.String r6 = "result"
                 java.lang.String r7 = "error"
@@ -170,7 +171,7 @@ public class WearableEcgManager {
                 goto L_0x0105
             L_0x00ed:
                 r5 = move-exception
-                java.lang.String r6 = "S HealthMonitor - WearableBpManager"
+                java.lang.String r6 = "S HealthMonitor - WearableEcgManager"
                 java.lang.StringBuilder r7 = new java.lang.StringBuilder     // Catch:{ all -> 0x0150 }
                 java.lang.String r1 = " [] Exception : "
                 r7.<init>(r1)     // Catch:{ all -> 0x0150 }
@@ -179,21 +180,21 @@ public class WearableEcgManager {
                 java.lang.String r5 = r7.toString()     // Catch:{ all -> 0x0150 }
                 com.samsung.android.shealthmonitor.util.LOG.e(r6, r5)     // Catch:{ all -> 0x0150 }
             L_0x0105:
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r4 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r4 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 java.lang.Object r4 = r4.mLock     // Catch:{ all -> 0x0150 }
                 goto L_0x00af
             L_0x010c:
                 monitor-exit(r0)     // Catch:{ all -> 0x0150 }
                 return
             L_0x010e:
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r6 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r6 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject r6 = r6.mLockResult     // Catch:{ all -> 0x0150 }
                 if (r6 != 0) goto L_0x0146
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r6 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r6 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject r7 = new org.json.JSONObject     // Catch:{ all -> 0x0150 }
                 r7.<init>()     // Catch:{ all -> 0x0150 }
                 org.json.JSONObject unused = r6.mLockResult = r7     // Catch:{ all -> 0x0150 }
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r6 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ JSONException -> 0x012e }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r6 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ JSONException -> 0x012e }
                 org.json.JSONObject r6 = r6.mLockResult     // Catch:{ JSONException -> 0x012e }
                 java.lang.String r7 = "result"
                 java.lang.String r1 = "error"
@@ -201,7 +202,7 @@ public class WearableEcgManager {
                 goto L_0x0146
             L_0x012e:
                 r6 = move-exception
-                java.lang.String r7 = "S HealthMonitor - WearableBpManager"
+                java.lang.String r7 = "S HealthMonitor - WearableEcgManager"
                 java.lang.StringBuilder r1 = new java.lang.StringBuilder     // Catch:{ all -> 0x0150 }
                 java.lang.String r2 = " [] Exception : "
                 r1.<init>(r2)     // Catch:{ all -> 0x0150 }
@@ -210,7 +211,7 @@ public class WearableEcgManager {
                 java.lang.String r6 = r1.toString()     // Catch:{ all -> 0x0150 }
                 com.samsung.android.shealthmonitor.util.LOG.e(r7, r6)     // Catch:{ all -> 0x0150 }
             L_0x0146:
-                com.samsung.android.shealthmonitor.bp.manager.WearableBpManager r4 = com.samsung.android.shealthmonitor.bp.manager.WearableBpManager.this     // Catch:{ all -> 0x0150 }
+                com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager r4 = com.samsung.android.shealthmonitor.bp.manager.WearableEcgManager.this     // Catch:{ all -> 0x0150 }
                 java.lang.Object r4 = r4.mLock     // Catch:{ all -> 0x0150 }
                 r4.notifyAll()     // Catch:{ all -> 0x0150 }
                 throw r5     // Catch:{ all -> 0x0150 }
@@ -237,7 +238,7 @@ public class WearableEcgManager {
 
     public WearableEcgManager() {
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("com.samsung.wearable.app.health.samd.bp");
+        intentFilter.addAction("com.samsung.wearable.app.health.samd.ecg");
         ContextHolder.getContext().registerReceiver(this.mBrReceiver, intentFilter);
     }
 
@@ -350,7 +351,16 @@ public class WearableEcgManager {
         return doRequestMessage(makeRequest("terms_and_condition", true).toString());
     }
 
-    public int sendInitiateCalibrationRequest(WearableMessageManager.ResultListener resultListener) {
+
+  public int sendOnboardingRequest(WearableMessageManager.ResultListener resultListener) {
+    return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("onboarding", true).toString(), resultListener);
+  }
+
+  public boolean sendOnboardingRequestSync() {
+    return doRequestMessage(makeRequest("initiate_calibration", true).toString());
+  }
+
+  public int sendInitiateCalibrationRequest(WearableMessageManager.ResultListener resultListener) {
         return WearableMessageManager.getInstance().requestMessage(WearableMessageData.TypeValue.MESSAGE, SENDER_ECG_MEASURING, RECEIVER_ECG_MEASURING, makeRequest("initiate_calibration", true).toString(), resultListener);
     }
 

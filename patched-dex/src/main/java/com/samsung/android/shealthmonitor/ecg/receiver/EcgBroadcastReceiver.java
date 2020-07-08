@@ -184,14 +184,19 @@ public class EcgBroadcastReceiver extends BroadcastReceiver {
     }
 
     private void synchronizeTnc() {
-        new Thread(EcgBroadcastReceiver$$Lambda$0.$instance).start();
+      new Thread(new Runnable() {
+        @Override
+        public void run() {
+          // test
+        }
+      }).start();
     }
 
     /* JADX WARNING: Code restructure failed: missing block: B:2:0x000a, code lost:
         r0 = com.samsung.android.shealthmonitor.wearable.device.NodeMonitor.getInstance().getConnectedEcgNode();
      */
     /* Code decompiled incorrectly, please refer to instructions dump. */
-    static final /* synthetic */ void lambda$synchronizeTnc$0$EcgBroadcastReceiver() {
+    static final /* synthetic */ void receiverStuff() {
         /*
             com.samsung.android.shealthmonitor.wearable.device.NodeMonitor r0 = com.samsung.android.shealthmonitor.wearable.device.NodeMonitor.getInstance()
             boolean r0 = r0.isConnectedEcgNode()
