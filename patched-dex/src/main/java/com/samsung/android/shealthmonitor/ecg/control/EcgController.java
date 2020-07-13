@@ -68,20 +68,21 @@ public class EcgController implements ControlInterface {
             this.mBpCard.setLayoutParams(new FrameLayout.LayoutParams(-1, -1));
         }
         if (!EcgSharedPreferenceHelper.getTncComplete()) {
-            new Thread(EcgController$$Lambda$0.$instance).start();
+          new Thread(new Runnable() {
+            @Override
+            public void run() {
+              String str;
+              if (WearableEcgManager.getInstance().sendTermsAndConditionRequestSync()) {
+                Node connectedBpNode = NodeMonitor.getInstance().getConnectedBpNode();
+                if (!(connectedBpNode == null || (str = (String) connectedBpNode.getInformation(Node.InformationKey.DEVICE_ID)) == null || str.isEmpty())) {
+                  SharedPreferenceHelper.setConnectedDevice((String) connectedBpNode.getInformation(Node.InformationKey.DEVICE_ID));
+                }
+                EcgSharedPreferenceHelper.setTncComplete(true);
+              }
+            }
+          }).start();
         }
         return this.mBpCard;
-    }
-
-    static final /* synthetic */ void lambda$getCardView$0$EcgController() {
-        String str;
-        if (WearableEcgManager.getInstance().sendTermsAndConditionRequestSync()) {
-            Node connectedBpNode = NodeMonitor.getInstance().getConnectedBpNode();
-            if (!(connectedBpNode == null || (str = (String) connectedBpNode.getInformation(Node.InformationKey.DEVICE_ID)) == null || str.isEmpty())) {
-                SharedPreferenceHelper.setConnectedDevice((String) connectedBpNode.getInformation(Node.InformationKey.DEVICE_ID));
-            }
-            EcgSharedPreferenceHelper.setTncComplete(true);
-        }
     }
 
     public ProtoTypeTopView getTopCardView(Context context) {
